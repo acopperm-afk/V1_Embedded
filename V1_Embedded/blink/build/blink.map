@@ -1,0 +1,1633 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-errno.o)
+                              build/sysmem.o (__errno)
+c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+                              c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (exit)
+c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+                              c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+                              c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
+c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+                              c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+ .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+ .text          0x00000000       0x40 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data          0x00000000        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x00000000       0x1c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .rodata        0x00000000       0x24 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .init_array    0x00000000        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x00000000        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .ARM.attributes
+                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x00000000       0x7c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.exidx     0x00000000       0x10 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.attributes
+                0x00000000       0x1c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .text          0x00000000        0x0 build/main.o
+ .data          0x00000000        0x0 build/main.o
+ .bss           0x00000000        0x0 build/main.o
+ .text          0x00000000        0x0 build/stm32g4xx_it.o
+ .data          0x00000000        0x0 build/stm32g4xx_it.o
+ .bss           0x00000000        0x0 build/stm32g4xx_it.o
+ .text          0x00000000        0x0 build/stm32g4xx_hal_msp.o
+ .data          0x00000000        0x0 build/stm32g4xx_hal_msp.o
+ .bss           0x00000000        0x0 build/stm32g4xx_hal_msp.o
+ .text          0x00000000        0x0 build/stm32g4xx_hal_pwr_ex.o
+ .data          0x00000000        0x0 build/stm32g4xx_hal_pwr_ex.o
+ .bss           0x00000000        0x0 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_GetVoltageRange
+                0x00000000       0x24 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_EnableBatteryCharging
+                0x00000000       0x1c build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_DisableBatteryCharging
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_EnableInternalWakeUpLine
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_DisableInternalWakeUpLine
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_EnableGPIOPullUp
+                0x00000000       0xb8 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_DisableGPIOPullUp
+                0x00000000       0x8c build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_EnableGPIOPullDown
+                0x00000000       0xbc build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_DisableGPIOPullDown
+                0x00000000       0x88 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_EnablePullUpPullDownConfig
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_DisablePullUpPullDownConfig
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_EnableSRAM2ContentRetention
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_DisableSRAM2ContentRetention
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_EnablePVM1
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_DisablePVM1
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_EnablePVM2
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_DisablePVM2
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_EnablePVM3
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_DisablePVM3
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_EnablePVM4
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_DisablePVM4
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_ConfigPVM
+                0x00000000      0x1ec build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_EnableLowPowerRunMode
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_DisableLowPowerRunMode
+                0x00000000       0x54 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_EnterSTOP0Mode
+                0x00000000       0x38 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_EnterSTOP1Mode
+                0x00000000       0x3c build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_EnterSHUTDOWNMode
+                0x00000000       0x24 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_PVM1Callback
+                0x00000000        0x2 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_PVM2Callback
+                0x00000000        0x2 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_PVM3Callback
+                0x00000000        0x2 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_PVM4Callback
+                0x00000000        0x2 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_PVD_PVM_IRQHandler
+                0x00000000       0x78 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_EnableUCPDStandbyMode
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_DisableUCPDStandbyMode
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text.HAL_PWREx_EnableUCPDDeadBattery
+                0x00000000       0x10 build/stm32g4xx_hal_pwr_ex.o
+ .text          0x00000000        0x0 build/stm32g4xx_hal.o
+ .data          0x00000000        0x0 build/stm32g4xx_hal.o
+ .bss           0x00000000        0x0 build/stm32g4xx_hal.o
+ .text.HAL_MspInit
+                0x00000000        0x2 build/stm32g4xx_hal.o
+ .text.HAL_MspDeInit
+                0x00000000        0x2 build/stm32g4xx_hal.o
+ .text.HAL_DeInit
+                0x00000000       0x2c build/stm32g4xx_hal.o
+ .text.HAL_GetTickPrio
+                0x00000000        0xc build/stm32g4xx_hal.o
+ .text.HAL_SetTickFreq
+                0x00000000       0x2c build/stm32g4xx_hal.o
+ .text.HAL_GetTickFreq
+                0x00000000        0xc build/stm32g4xx_hal.o
+ .text.HAL_SuspendTick
+                0x00000000        0xe build/stm32g4xx_hal.o
+ .text.HAL_ResumeTick
+                0x00000000        0xe build/stm32g4xx_hal.o
+ .text.HAL_GetHalVersion
+                0x00000000        0x8 build/stm32g4xx_hal.o
+ .text.HAL_GetREVID
+                0x00000000        0xc build/stm32g4xx_hal.o
+ .text.HAL_GetDEVID
+                0x00000000       0x10 build/stm32g4xx_hal.o
+ .text.HAL_GetUIDw0
+                0x00000000        0xc build/stm32g4xx_hal.o
+ .text.HAL_GetUIDw1
+                0x00000000        0xc build/stm32g4xx_hal.o
+ .text.HAL_GetUIDw2
+                0x00000000        0xc build/stm32g4xx_hal.o
+ .text.HAL_DBGMCU_EnableDBGSleepMode
+                0x00000000       0x10 build/stm32g4xx_hal.o
+ .text.HAL_DBGMCU_DisableDBGSleepMode
+                0x00000000       0x10 build/stm32g4xx_hal.o
+ .text.HAL_DBGMCU_EnableDBGStopMode
+                0x00000000       0x10 build/stm32g4xx_hal.o
+ .text.HAL_DBGMCU_DisableDBGStopMode
+                0x00000000       0x10 build/stm32g4xx_hal.o
+ .text.HAL_DBGMCU_EnableDBGStandbyMode
+                0x00000000       0x10 build/stm32g4xx_hal.o
+ .text.HAL_DBGMCU_DisableDBGStandbyMode
+                0x00000000       0x10 build/stm32g4xx_hal.o
+ .text.HAL_SYSCFG_CCMSRAMErase
+                0x00000000       0x18 build/stm32g4xx_hal.o
+ .text.HAL_SYSCFG_EnableMemorySwappingBank
+                0x00000000       0x10 build/stm32g4xx_hal.o
+ .text.HAL_SYSCFG_DisableMemorySwappingBank
+                0x00000000       0x10 build/stm32g4xx_hal.o
+ .text.HAL_SYSCFG_VREFBUF_VoltageScalingConfig
+                0x00000000       0x14 build/stm32g4xx_hal.o
+ .text.HAL_SYSCFG_VREFBUF_HighImpedanceConfig
+                0x00000000       0x14 build/stm32g4xx_hal.o
+ .text.HAL_SYSCFG_VREFBUF_TrimmingConfig
+                0x00000000       0x14 build/stm32g4xx_hal.o
+ .text.HAL_SYSCFG_EnableVREFBUF
+                0x00000000       0x34 build/stm32g4xx_hal.o
+ .text.HAL_SYSCFG_DisableVREFBUF
+                0x00000000       0x10 build/stm32g4xx_hal.o
+ .text.HAL_SYSCFG_EnableIOSwitchBooster
+                0x00000000       0x10 build/stm32g4xx_hal.o
+ .text.HAL_SYSCFG_DisableIOSwitchBooster
+                0x00000000       0x10 build/stm32g4xx_hal.o
+ .text.HAL_SYSCFG_EnableIOSwitchVDD
+                0x00000000       0x10 build/stm32g4xx_hal.o
+ .text.HAL_SYSCFG_DisableIOSwitchVDD
+                0x00000000       0x10 build/stm32g4xx_hal.o
+ .text.HAL_SYSCFG_CCMSRAM_WriteProtectionEnable
+                0x00000000       0x10 build/stm32g4xx_hal.o
+ .text          0x00000000        0x0 build/stm32g4xx_hal_rcc.o
+ .data          0x00000000        0x0 build/stm32g4xx_hal_rcc.o
+ .bss           0x00000000        0x0 build/stm32g4xx_hal_rcc.o
+ .text.HAL_RCC_DeInit
+                0x00000000       0xcc build/stm32g4xx_hal_rcc.o
+ .text.HAL_RCC_MCOConfig
+                0x00000000       0x5c build/stm32g4xx_hal_rcc.o
+ .text.HAL_RCC_GetHCLKFreq
+                0x00000000        0xc build/stm32g4xx_hal_rcc.o
+ .text.HAL_RCC_GetPCLK1Freq
+                0x00000000       0x24 build/stm32g4xx_hal_rcc.o
+ .text.HAL_RCC_GetPCLK2Freq
+                0x00000000       0x24 build/stm32g4xx_hal_rcc.o
+ .text.HAL_RCC_GetOscConfig
+                0x00000000       0xf4 build/stm32g4xx_hal_rcc.o
+ .text.HAL_RCC_GetClockConfig
+                0x00000000       0x3c build/stm32g4xx_hal_rcc.o
+ .text.HAL_RCC_EnableCSS
+                0x00000000       0x10 build/stm32g4xx_hal_rcc.o
+ .text.HAL_RCC_EnableLSECSS
+                0x00000000       0x14 build/stm32g4xx_hal_rcc.o
+ .text.HAL_RCC_DisableLSECSS
+                0x00000000       0x14 build/stm32g4xx_hal_rcc.o
+ .text.HAL_RCC_CSSCallback
+                0x00000000        0x2 build/stm32g4xx_hal_rcc.o
+ .text.HAL_RCC_NMI_IRQHandler
+                0x00000000       0x20 build/stm32g4xx_hal_rcc.o
+ .text          0x00000000        0x0 build/stm32g4xx_hal_rcc_ex.o
+ .data          0x00000000        0x0 build/stm32g4xx_hal_rcc_ex.o
+ .bss           0x00000000        0x0 build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_PeriphCLKConfig
+                0x00000000      0x35c build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_GetPeriphCLKConfig
+                0x00000000       0xd0 build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_GetPeriphCLKFreq
+                0x00000000      0x748 build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_EnableLSECSS
+                0x00000000       0x14 build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_DisableLSECSS
+                0x00000000       0x1c build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_EnableLSECSS_IT
+                0x00000000       0x30 build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_LSECSS_Callback
+                0x00000000        0x2 build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_LSECSS_IRQHandler
+                0x00000000       0x20 build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_EnableLSCO
+                0x00000000       0xa8 build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_DisableLSCO
+                0x00000000       0x6c build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRSConfig
+                0x00000000       0x4c build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRSSoftwareSynchronizationGenerate
+                0x00000000       0x10 build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRSGetSynchronizationInfo
+                0x00000000       0x24 build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRSWaitSynchronization
+                0x00000000       0xac build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRS_SyncOkCallback
+                0x00000000        0x2 build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRS_SyncWarnCallback
+                0x00000000        0x2 build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRS_ExpectedSyncCallback
+                0x00000000        0x2 build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRS_ErrorCallback
+                0x00000000        0x2 build/stm32g4xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRS_IRQHandler
+                0x00000000       0x88 build/stm32g4xx_hal_rcc_ex.o
+ .debug_info    0x00000000     0x1096 build/stm32g4xx_hal_rcc_ex.o
+ .debug_abbrev  0x00000000      0x269 build/stm32g4xx_hal_rcc_ex.o
+ .debug_loc     0x00000000     0x158d build/stm32g4xx_hal_rcc_ex.o
+ .debug_aranges
+                0x00000000       0xb0 build/stm32g4xx_hal_rcc_ex.o
+ .debug_ranges  0x00000000       0xb8 build/stm32g4xx_hal_rcc_ex.o
+ .debug_line    0x00000000     0x1234 build/stm32g4xx_hal_rcc_ex.o
+ .debug_str     0x00000000      0xa6d build/stm32g4xx_hal_rcc_ex.o
+ .comment       0x00000000       0x4a build/stm32g4xx_hal_rcc_ex.o
+ .debug_frame   0x00000000      0x1a0 build/stm32g4xx_hal_rcc_ex.o
+ .ARM.attributes
+                0x00000000       0x34 build/stm32g4xx_hal_rcc_ex.o
+ .text          0x00000000        0x0 build/stm32g4xx_hal_flash.o
+ .data          0x00000000        0x0 build/stm32g4xx_hal_flash.o
+ .bss           0x00000000        0x0 build/stm32g4xx_hal_flash.o
+ .text.FLASH_Program_DoubleWord
+                0x00000000       0x20 build/stm32g4xx_hal_flash.o
+ .text.FLASH_Program_Fast
+                0x00000000       0x2c build/stm32g4xx_hal_flash.o
+ .text.HAL_FLASH_EndOfOperationCallback
+                0x00000000        0x2 build/stm32g4xx_hal_flash.o
+ .text.HAL_FLASH_OperationErrorCallback
+                0x00000000        0x2 build/stm32g4xx_hal_flash.o
+ .text.HAL_FLASH_IRQHandler
+                0x00000000      0x120 build/stm32g4xx_hal_flash.o
+ .text.HAL_FLASH_Unlock
+                0x00000000       0x30 build/stm32g4xx_hal_flash.o
+ .text.HAL_FLASH_Lock
+                0x00000000       0x1c build/stm32g4xx_hal_flash.o
+ .text.HAL_FLASH_OB_Unlock
+                0x00000000       0x34 build/stm32g4xx_hal_flash.o
+ .text.HAL_FLASH_OB_Lock
+                0x00000000       0x20 build/stm32g4xx_hal_flash.o
+ .text.HAL_FLASH_GetError
+                0x00000000        0xc build/stm32g4xx_hal_flash.o
+ .text.FLASH_WaitForLastOperation
+                0x00000000       0x60 build/stm32g4xx_hal_flash.o
+ .text.HAL_FLASH_Program
+                0x00000000       0xb0 build/stm32g4xx_hal_flash.o
+ .text.HAL_FLASH_Program_IT
+                0x00000000       0xa4 build/stm32g4xx_hal_flash.o
+ .text.HAL_FLASH_OB_Launch
+                0x00000000       0x1c build/stm32g4xx_hal_flash.o
+ .data.pFlash   0x00000000       0x20 build/stm32g4xx_hal_flash.o
+ .debug_info    0x00000000      0x962 build/stm32g4xx_hal_flash.o
+ .debug_abbrev  0x00000000      0x359 build/stm32g4xx_hal_flash.o
+ .debug_loc     0x00000000      0x6c7 build/stm32g4xx_hal_flash.o
+ .debug_aranges
+                0x00000000       0x88 build/stm32g4xx_hal_flash.o
+ .debug_ranges  0x00000000       0x78 build/stm32g4xx_hal_flash.o
+ .debug_line    0x00000000      0x81a build/stm32g4xx_hal_flash.o
+ .debug_str     0x00000000      0x662 build/stm32g4xx_hal_flash.o
+ .comment       0x00000000       0x4a build/stm32g4xx_hal_flash.o
+ .debug_frame   0x00000000      0x138 build/stm32g4xx_hal_flash.o
+ .ARM.attributes
+                0x00000000       0x34 build/stm32g4xx_hal_flash.o
+ .text          0x00000000        0x0 build/stm32g4xx_hal_flash_ex.o
+ .data          0x00000000        0x0 build/stm32g4xx_hal_flash_ex.o
+ .bss           0x00000000        0x0 build/stm32g4xx_hal_flash_ex.o
+ .text.FLASH_MassErase
+                0x00000000       0x20 build/stm32g4xx_hal_flash_ex.o
+ .text.FLASH_OB_GetSecMem
+                0x00000000       0x14 build/stm32g4xx_hal_flash_ex.o
+ .text.FLASH_OB_GetBootLock
+                0x00000000       0x10 build/stm32g4xx_hal_flash_ex.o
+ .text.FLASH_OB_GetWRP
+                0x00000000       0x34 build/stm32g4xx_hal_flash_ex.o
+ .text.FLASH_OB_GetRDP
+                0x00000000       0x18 build/stm32g4xx_hal_flash_ex.o
+ .text.FLASH_OB_GetUser
+                0x00000000       0x10 build/stm32g4xx_hal_flash_ex.o
+ .text.FLASH_OB_GetPCROP
+                0x00000000       0x40 build/stm32g4xx_hal_flash_ex.o
+ .text.FLASH_OB_WRPConfig
+                0x00000000       0x44 build/stm32g4xx_hal_flash_ex.o
+ .text.FLASH_OB_RDPConfig
+                0x00000000       0x34 build/stm32g4xx_hal_flash_ex.o
+ .text.FLASH_OB_UserConfig
+                0x00000000      0x138 build/stm32g4xx_hal_flash_ex.o
+ .text.FLASH_OB_PCROPConfig
+                0x00000000       0x68 build/stm32g4xx_hal_flash_ex.o
+ .text.FLASH_OB_SecMemConfig
+                0x00000000       0x3c build/stm32g4xx_hal_flash_ex.o
+ .text.FLASH_OB_BootLockConfig
+                0x00000000       0x34 build/stm32g4xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_OBProgram
+                0x00000000       0xc0 build/stm32g4xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_OBGetConfig
+                0x00000000       0x74 build/stm32g4xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_EnableSecMemProtection
+                0x00000000       0x14 build/stm32g4xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_EnableDebugger
+                0x00000000       0x10 build/stm32g4xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_DisableDebugger
+                0x00000000       0x10 build/stm32g4xx_hal_flash_ex.o
+ .text.FLASH_PageErase
+                0x00000000       0x28 build/stm32g4xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_Erase_IT
+                0x00000000       0xb0 build/stm32g4xx_hal_flash_ex.o
+ .text.FLASH_FlushCaches
+                0x00000000       0x64 build/stm32g4xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_Erase
+                0x00000000       0xf0 build/stm32g4xx_hal_flash_ex.o
+ .debug_info    0x00000000      0xc97 build/stm32g4xx_hal_flash_ex.o
+ .debug_abbrev  0x00000000      0x2e4 build/stm32g4xx_hal_flash_ex.o
+ .debug_loc     0x00000000      0x905 build/stm32g4xx_hal_flash_ex.o
+ .debug_aranges
+                0x00000000       0xc8 build/stm32g4xx_hal_flash_ex.o
+ .debug_ranges  0x00000000       0xb8 build/stm32g4xx_hal_flash_ex.o
+ .debug_line    0x00000000      0xbdb build/stm32g4xx_hal_flash_ex.o
+ .debug_str     0x00000000      0x780 build/stm32g4xx_hal_flash_ex.o
+ .comment       0x00000000       0x4a build/stm32g4xx_hal_flash_ex.o
+ .debug_frame   0x00000000      0x1f0 build/stm32g4xx_hal_flash_ex.o
+ .ARM.attributes
+                0x00000000       0x34 build/stm32g4xx_hal_flash_ex.o
+ .text          0x00000000        0x0 build/stm32g4xx_hal_flash_ramfunc.o
+ .data          0x00000000        0x0 build/stm32g4xx_hal_flash_ramfunc.o
+ .bss           0x00000000        0x0 build/stm32g4xx_hal_flash_ramfunc.o
+ .RamFunc       0x00000000       0x48 build/stm32g4xx_hal_flash_ramfunc.o
+ .debug_info    0x00000000      0x211 build/stm32g4xx_hal_flash_ramfunc.o
+ .debug_abbrev  0x00000000       0xcc build/stm32g4xx_hal_flash_ramfunc.o
+ .debug_aranges
+                0x00000000       0x28 build/stm32g4xx_hal_flash_ramfunc.o
+ .debug_ranges  0x00000000       0x18 build/stm32g4xx_hal_flash_ramfunc.o
+ .debug_line    0x00000000      0x206 build/stm32g4xx_hal_flash_ramfunc.o
+ .debug_str     0x00000000      0x2c2 build/stm32g4xx_hal_flash_ramfunc.o
+ .comment       0x00000000       0x4a build/stm32g4xx_hal_flash_ramfunc.o
+ .debug_frame   0x00000000       0x30 build/stm32g4xx_hal_flash_ramfunc.o
+ .ARM.attributes
+                0x00000000       0x34 build/stm32g4xx_hal_flash_ramfunc.o
+ .text          0x00000000        0x0 build/stm32g4xx_hal_gpio.o
+ .data          0x00000000        0x0 build/stm32g4xx_hal_gpio.o
+ .bss           0x00000000        0x0 build/stm32g4xx_hal_gpio.o
+ .text.HAL_GPIO_Init
+                0x00000000      0x1e0 build/stm32g4xx_hal_gpio.o
+ .text.HAL_GPIO_DeInit
+                0x00000000      0x11c build/stm32g4xx_hal_gpio.o
+ .text.HAL_GPIO_ReadPin
+                0x00000000        0xe build/stm32g4xx_hal_gpio.o
+ .text.HAL_GPIO_WritePin
+                0x00000000        0xa build/stm32g4xx_hal_gpio.o
+ .text.HAL_GPIO_LockPin
+                0x00000000       0x2e build/stm32g4xx_hal_gpio.o
+ .text.HAL_GPIO_EXTI_Callback
+                0x00000000        0x2 build/stm32g4xx_hal_gpio.o
+ .text.HAL_GPIO_EXTI_IRQHandler
+                0x00000000       0x1c build/stm32g4xx_hal_gpio.o
+ .text          0x00000000        0x0 build/stm32g4xx_hal_exti.o
+ .data          0x00000000        0x0 build/stm32g4xx_hal_exti.o
+ .bss           0x00000000        0x0 build/stm32g4xx_hal_exti.o
+ .text.HAL_EXTI_SetConfigLine
+                0x00000000       0xdc build/stm32g4xx_hal_exti.o
+ .text.HAL_EXTI_GetConfigLine
+                0x00000000       0xbc build/stm32g4xx_hal_exti.o
+ .text.HAL_EXTI_ClearConfigLine
+                0x00000000       0xa0 build/stm32g4xx_hal_exti.o
+ .text.HAL_EXTI_RegisterCallback
+                0x00000000       0x10 build/stm32g4xx_hal_exti.o
+ .text.HAL_EXTI_GetHandle
+                0x00000000        0xc build/stm32g4xx_hal_exti.o
+ .text.HAL_EXTI_IRQHandler
+                0x00000000       0x2c build/stm32g4xx_hal_exti.o
+ .text.HAL_EXTI_GetPending
+                0x00000000       0x20 build/stm32g4xx_hal_exti.o
+ .text.HAL_EXTI_ClearPending
+                0x00000000       0x1c build/stm32g4xx_hal_exti.o
+ .text.HAL_EXTI_GenerateSWI
+                0x00000000       0x1c build/stm32g4xx_hal_exti.o
+ .debug_info    0x00000000      0x805 build/stm32g4xx_hal_exti.o
+ .debug_abbrev  0x00000000      0x1da build/stm32g4xx_hal_exti.o
+ .debug_loc     0x00000000      0xbbd build/stm32g4xx_hal_exti.o
+ .debug_aranges
+                0x00000000       0x60 build/stm32g4xx_hal_exti.o
+ .debug_ranges  0x00000000       0x50 build/stm32g4xx_hal_exti.o
+ .debug_line    0x00000000      0x778 build/stm32g4xx_hal_exti.o
+ .debug_str     0x00000000      0x44c build/stm32g4xx_hal_exti.o
+ .comment       0x00000000       0x4a build/stm32g4xx_hal_exti.o
+ .debug_frame   0x00000000       0xf4 build/stm32g4xx_hal_exti.o
+ .ARM.attributes
+                0x00000000       0x34 build/stm32g4xx_hal_exti.o
+ .text          0x00000000        0x0 build/stm32g4xx_hal_dma.o
+ .data          0x00000000        0x0 build/stm32g4xx_hal_dma.o
+ .bss           0x00000000        0x0 build/stm32g4xx_hal_dma.o
+ .text.DMA_SetConfig
+                0x00000000       0x42 build/stm32g4xx_hal_dma.o
+ .text.DMA_CalcDMAMUXChannelBaseAndMask
+                0x00000000       0x58 build/stm32g4xx_hal_dma.o
+ .text.DMA_CalcDMAMUXRequestGenBaseAndMask
+                0x00000000       0x2c build/stm32g4xx_hal_dma.o
+ .text.HAL_DMA_Init
+                0x00000000       0xdc build/stm32g4xx_hal_dma.o
+ .text.HAL_DMA_DeInit
+                0x00000000       0xb8 build/stm32g4xx_hal_dma.o
+ .text.HAL_DMA_Start
+                0x00000000       0x52 build/stm32g4xx_hal_dma.o
+ .text.HAL_DMA_Start_IT
+                0x00000000       0x94 build/stm32g4xx_hal_dma.o
+ .text.HAL_DMA_Abort
+                0x00000000       0x74 build/stm32g4xx_hal_dma.o
+ .text.HAL_DMA_Abort_IT
+                0x00000000       0x7e build/stm32g4xx_hal_dma.o
+ .text.HAL_DMA_PollForTransfer
+                0x00000000      0x11c build/stm32g4xx_hal_dma.o
+ .text.HAL_DMA_IRQHandler
+                0x00000000       0xc4 build/stm32g4xx_hal_dma.o
+ .text.HAL_DMA_RegisterCallback
+                0x00000000       0x4c build/stm32g4xx_hal_dma.o
+ .text.HAL_DMA_UnRegisterCallback
+                0x00000000       0x5c build/stm32g4xx_hal_dma.o
+ .text.HAL_DMA_GetState
+                0x00000000        0x6 build/stm32g4xx_hal_dma.o
+ .text.HAL_DMA_GetError
+                0x00000000        0x4 build/stm32g4xx_hal_dma.o
+ .debug_info    0x00000000      0xaeb build/stm32g4xx_hal_dma.o
+ .debug_abbrev  0x00000000      0x251 build/stm32g4xx_hal_dma.o
+ .debug_loc     0x00000000      0xa16 build/stm32g4xx_hal_dma.o
+ .debug_aranges
+                0x00000000       0x90 build/stm32g4xx_hal_dma.o
+ .debug_ranges  0x00000000       0x80 build/stm32g4xx_hal_dma.o
+ .debug_line    0x00000000      0xcaa build/stm32g4xx_hal_dma.o
+ .debug_str     0x00000000      0x7bc build/stm32g4xx_hal_dma.o
+ .comment       0x00000000       0x4a build/stm32g4xx_hal_dma.o
+ .debug_frame   0x00000000      0x170 build/stm32g4xx_hal_dma.o
+ .ARM.attributes
+                0x00000000       0x34 build/stm32g4xx_hal_dma.o
+ .text          0x00000000        0x0 build/stm32g4xx_hal_dma_ex.o
+ .data          0x00000000        0x0 build/stm32g4xx_hal_dma_ex.o
+ .bss           0x00000000        0x0 build/stm32g4xx_hal_dma_ex.o
+ .text.HAL_DMAEx_ConfigMuxSync
+                0x00000000       0x58 build/stm32g4xx_hal_dma_ex.o
+ .text.HAL_DMAEx_ConfigMuxRequestGenerator
+                0x00000000       0x5e build/stm32g4xx_hal_dma_ex.o
+ .text.HAL_DMAEx_EnableMuxRequestGenerator
+                0x00000000       0x1e build/stm32g4xx_hal_dma_ex.o
+ .text.HAL_DMAEx_DisableMuxRequestGenerator
+                0x00000000       0x1e build/stm32g4xx_hal_dma_ex.o
+ .text.HAL_DMAEx_MUX_IRQHandler
+                0x00000000       0x5a build/stm32g4xx_hal_dma_ex.o
+ .debug_info    0x00000000      0x749 build/stm32g4xx_hal_dma_ex.o
+ .debug_abbrev  0x00000000      0x20c build/stm32g4xx_hal_dma_ex.o
+ .debug_loc     0x00000000      0x2b0 build/stm32g4xx_hal_dma_ex.o
+ .debug_aranges
+                0x00000000       0x40 build/stm32g4xx_hal_dma_ex.o
+ .debug_ranges  0x00000000       0x48 build/stm32g4xx_hal_dma_ex.o
+ .debug_line    0x00000000      0x4c2 build/stm32g4xx_hal_dma_ex.o
+ .debug_str     0x00000000      0x699 build/stm32g4xx_hal_dma_ex.o
+ .comment       0x00000000       0x4a build/stm32g4xx_hal_dma_ex.o
+ .debug_frame   0x00000000       0x8c build/stm32g4xx_hal_dma_ex.o
+ .ARM.attributes
+                0x00000000       0x34 build/stm32g4xx_hal_dma_ex.o
+ .text          0x00000000        0x0 build/stm32g4xx_hal_pwr.o
+ .data          0x00000000        0x0 build/stm32g4xx_hal_pwr.o
+ .bss           0x00000000        0x0 build/stm32g4xx_hal_pwr.o
+ .text.HAL_PWR_DeInit
+                0x00000000       0x18 build/stm32g4xx_hal_pwr.o
+ .text.HAL_PWR_EnableBkUpAccess
+                0x00000000       0x10 build/stm32g4xx_hal_pwr.o
+ .text.HAL_PWR_DisableBkUpAccess
+                0x00000000       0x10 build/stm32g4xx_hal_pwr.o
+ .text.HAL_PWR_ConfigPVD
+                0x00000000       0x84 build/stm32g4xx_hal_pwr.o
+ .text.HAL_PWR_EnablePVD
+                0x00000000       0x10 build/stm32g4xx_hal_pwr.o
+ .text.HAL_PWR_DisablePVD
+                0x00000000       0x10 build/stm32g4xx_hal_pwr.o
+ .text.HAL_PWR_EnableWakeUpPin
+                0x00000000       0x20 build/stm32g4xx_hal_pwr.o
+ .text.HAL_PWR_DisableWakeUpPin
+                0x00000000       0x14 build/stm32g4xx_hal_pwr.o
+ .text.HAL_PWR_EnterSLEEPMode
+                0x00000000       0x48 build/stm32g4xx_hal_pwr.o
+ .text.HAL_PWR_EnterSTOPMode
+                0x00000000       0x18 build/stm32g4xx_hal_pwr.o
+ .text.HAL_PWR_EnterSTANDBYMode
+                0x00000000       0x24 build/stm32g4xx_hal_pwr.o
+ .text.HAL_PWR_EnableSleepOnExit
+                0x00000000       0x10 build/stm32g4xx_hal_pwr.o
+ .text.HAL_PWR_DisableSleepOnExit
+                0x00000000       0x10 build/stm32g4xx_hal_pwr.o
+ .text.HAL_PWR_EnableSEVOnPend
+                0x00000000       0x10 build/stm32g4xx_hal_pwr.o
+ .text.HAL_PWR_DisableSEVOnPend
+                0x00000000       0x10 build/stm32g4xx_hal_pwr.o
+ .text.HAL_PWR_PVDCallback
+                0x00000000        0x2 build/stm32g4xx_hal_pwr.o
+ .debug_info    0x00000000      0xac3 build/stm32g4xx_hal_pwr.o
+ .debug_abbrev  0x00000000      0x19d build/stm32g4xx_hal_pwr.o
+ .debug_loc     0x00000000      0x1f1 build/stm32g4xx_hal_pwr.o
+ .debug_aranges
+                0x00000000       0x98 build/stm32g4xx_hal_pwr.o
+ .debug_ranges  0x00000000       0x88 build/stm32g4xx_hal_pwr.o
+ .debug_line    0x00000000      0x443 build/stm32g4xx_hal_pwr.o
+ .debug_str     0x00000000      0x6bc build/stm32g4xx_hal_pwr.o
+ .comment       0x00000000       0x4a build/stm32g4xx_hal_pwr.o
+ .debug_frame   0x00000000      0x120 build/stm32g4xx_hal_pwr.o
+ .ARM.attributes
+                0x00000000       0x34 build/stm32g4xx_hal_pwr.o
+ .text          0x00000000        0x0 build/stm32g4xx_hal_cortex.o
+ .data          0x00000000        0x0 build/stm32g4xx_hal_cortex.o
+ .bss           0x00000000        0x0 build/stm32g4xx_hal_cortex.o
+ .text.HAL_NVIC_EnableIRQ
+                0x00000000       0x1c build/stm32g4xx_hal_cortex.o
+ .text.HAL_NVIC_DisableIRQ
+                0x00000000       0x24 build/stm32g4xx_hal_cortex.o
+ .text.HAL_NVIC_SystemReset
+                0x00000000       0x24 build/stm32g4xx_hal_cortex.o
+ .text.HAL_NVIC_GetPriorityGrouping
+                0x00000000       0x10 build/stm32g4xx_hal_cortex.o
+ .text.HAL_NVIC_GetPriority
+                0x00000000       0x60 build/stm32g4xx_hal_cortex.o
+ .text.HAL_NVIC_SetPendingIRQ
+                0x00000000       0x1c build/stm32g4xx_hal_cortex.o
+ .text.HAL_NVIC_GetPendingIRQ
+                0x00000000       0x24 build/stm32g4xx_hal_cortex.o
+ .text.HAL_NVIC_ClearPendingIRQ
+                0x00000000       0x1c build/stm32g4xx_hal_cortex.o
+ .text.HAL_NVIC_GetActive
+                0x00000000       0x24 build/stm32g4xx_hal_cortex.o
+ .text.HAL_SYSTICK_CLKSourceConfig
+                0x00000000       0x20 build/stm32g4xx_hal_cortex.o
+ .text.HAL_SYSTICK_Callback
+                0x00000000        0x2 build/stm32g4xx_hal_cortex.o
+ .text.HAL_SYSTICK_IRQHandler
+                0x00000000        0x8 build/stm32g4xx_hal_cortex.o
+ .text.HAL_MPU_Enable
+                0x00000000       0x18 build/stm32g4xx_hal_cortex.o
+ .text.HAL_MPU_Disable
+                0x00000000       0x14 build/stm32g4xx_hal_cortex.o
+ .text.HAL_MPU_EnableRegion
+                0x00000000       0x18 build/stm32g4xx_hal_cortex.o
+ .text.HAL_MPU_DisableRegion
+                0x00000000       0x18 build/stm32g4xx_hal_cortex.o
+ .text.HAL_MPU_ConfigRegion
+                0x00000000       0x58 build/stm32g4xx_hal_cortex.o
+ .text          0x00000000        0x0 build/system_stm32g4xx.o
+ .data          0x00000000        0x0 build/system_stm32g4xx.o
+ .bss           0x00000000        0x0 build/system_stm32g4xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0x90 build/system_stm32g4xx.o
+ .rodata.APBPrescTable
+                0x00000000        0x8 build/system_stm32g4xx.o
+ .text          0x00000000        0x0 build/sysmem.o
+ .data          0x00000000        0x0 build/sysmem.o
+ .bss           0x00000000        0x0 build/sysmem.o
+ .text._sbrk    0x00000000       0x48 build/sysmem.o
+ .bss.__sbrk_heap_end
+                0x00000000        0x4 build/sysmem.o
+ .debug_info    0x00000000      0x185 build/sysmem.o
+ .debug_abbrev  0x00000000       0xea build/sysmem.o
+ .debug_loc     0x00000000       0x84 build/sysmem.o
+ .debug_aranges
+                0x00000000       0x20 build/sysmem.o
+ .debug_ranges  0x00000000       0x10 build/sysmem.o
+ .debug_line    0x00000000      0x225 build/sysmem.o
+ .debug_str     0x00000000      0x23c build/sysmem.o
+ .comment       0x00000000       0x4a build/sysmem.o
+ .debug_frame   0x00000000       0x28 build/sysmem.o
+ .ARM.attributes
+                0x00000000       0x34 build/sysmem.o
+ .text          0x00000000        0x0 build/syscalls.o
+ .data          0x00000000        0x0 build/syscalls.o
+ .bss           0x00000000        0x0 build/syscalls.o
+ .text.initialise_monitor_handles
+                0x00000000        0x2 build/syscalls.o
+ .text._getpid  0x00000000        0x4 build/syscalls.o
+ .text._kill    0x00000000       0x10 build/syscalls.o
+ .text._exit    0x00000000        0xc build/syscalls.o
+ .text._read    0x00000000       0x20 build/syscalls.o
+ .text._write   0x00000000       0x1c build/syscalls.o
+ .text._close   0x00000000        0x6 build/syscalls.o
+ .text._fstat   0x00000000        0xa build/syscalls.o
+ .text._isatty  0x00000000        0x4 build/syscalls.o
+ .text._lseek   0x00000000        0x4 build/syscalls.o
+ .text._open    0x00000000        0xa build/syscalls.o
+ .text._wait    0x00000000       0x10 build/syscalls.o
+ .text._unlink  0x00000000       0x10 build/syscalls.o
+ .text._times   0x00000000        0x6 build/syscalls.o
+ .text._stat    0x00000000        0xa build/syscalls.o
+ .text._link    0x00000000       0x10 build/syscalls.o
+ .text._fork    0x00000000       0x10 build/syscalls.o
+ .text._execve  0x00000000       0x10 build/syscalls.o
+ .bss.__env     0x00000000        0x4 build/syscalls.o
+ .data.environ  0x00000000        0x4 build/syscalls.o
+ .debug_info    0x00000000      0x840 build/syscalls.o
+ .debug_abbrev  0x00000000      0x1cb build/syscalls.o
+ .debug_loc     0x00000000      0x511 build/syscalls.o
+ .debug_aranges
+                0x00000000       0xa8 build/syscalls.o
+ .debug_ranges  0x00000000       0x98 build/syscalls.o
+ .debug_line    0x00000000      0x444 build/syscalls.o
+ .debug_str     0x00000000      0x410 build/syscalls.o
+ .comment       0x00000000       0x4a build/syscalls.o
+ .debug_frame   0x00000000      0x190 build/syscalls.o
+ .ARM.attributes
+                0x00000000       0x34 build/syscalls.o
+ .text          0x00000000       0x14 build/startup_stm32g491xx.o
+ .data          0x00000000        0x0 build/startup_stm32g491xx.o
+ .bss           0x00000000        0x0 build/startup_stm32g491xx.o
+ .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-errno.o)
+ .text.__errno  0x00000000        0xc c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-errno.o)
+ .debug_frame   0x00000000       0x20 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x28 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000       0x60 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .rodata        0x00000000       0x24 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .eh_frame      0x00000000        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .ARM.attributes
+                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x20000000         0x0001c000         xrw
+FLASH            0x08000000         0x00080000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+LOAD build/main.o
+LOAD build/stm32g4xx_it.o
+LOAD build/stm32g4xx_hal_msp.o
+LOAD build/stm32g4xx_hal_pwr_ex.o
+LOAD build/stm32g4xx_hal.o
+LOAD build/stm32g4xx_hal_rcc.o
+LOAD build/stm32g4xx_hal_rcc_ex.o
+LOAD build/stm32g4xx_hal_flash.o
+LOAD build/stm32g4xx_hal_flash_ex.o
+LOAD build/stm32g4xx_hal_flash_ramfunc.o
+LOAD build/stm32g4xx_hal_gpio.o
+LOAD build/stm32g4xx_hal_exti.o
+LOAD build/stm32g4xx_hal_dma.o
+LOAD build/stm32g4xx_hal_dma_ex.o
+LOAD build/stm32g4xx_hal_pwr.o
+LOAD build/stm32g4xx_hal_cortex.o
+LOAD build/system_stm32g4xx.o
+LOAD build/sysmem.o
+LOAD build/syscalls.o
+LOAD build/startup_stm32g491xx.o
+LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a
+LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
+LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a
+START GROUP
+LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a
+END GROUP
+LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x2001c000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x2001bc00                _sstack = (_estack - _Min_Stack_Size)
+                0x00000200                _Min_Heap_Size = 0x200
+                0x00000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x1d8
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x1d8 build/startup_stm32g491xx.o
+                0x08000000                g_pfnVectors
+                0x080001d8                . = ALIGN (0x4)
+
+.text           0x080001d8      0xc0c
+                0x080001d8                . = ALIGN (0x4)
+ *(.text)
+ *(.text*)
+ .text.Error_Handler
+                0x080001d8        0x4 build/main.o
+                0x080001d8                Error_Handler
+ .text.SystemClock_Config
+                0x080001dc       0x5e build/main.o
+                0x080001dc                SystemClock_Config
+ .text.main     0x0800023a       0x1e build/main.o
+                0x0800023a                main
+ .text.NMI_Handler
+                0x08000258        0x2 build/stm32g4xx_it.o
+                0x08000258                NMI_Handler
+ .text.HardFault_Handler
+                0x0800025a        0x2 build/stm32g4xx_it.o
+                0x0800025a                HardFault_Handler
+ .text.MemManage_Handler
+                0x0800025c        0x2 build/stm32g4xx_it.o
+                0x0800025c                MemManage_Handler
+ .text.BusFault_Handler
+                0x0800025e        0x2 build/stm32g4xx_it.o
+                0x0800025e                BusFault_Handler
+ .text.UsageFault_Handler
+                0x08000260        0x2 build/stm32g4xx_it.o
+                0x08000260                UsageFault_Handler
+ .text.SVC_Handler
+                0x08000262        0x2 build/stm32g4xx_it.o
+                0x08000262                SVC_Handler
+ .text.DebugMon_Handler
+                0x08000264        0x2 build/stm32g4xx_it.o
+                0x08000264                DebugMon_Handler
+ .text.PendSV_Handler
+                0x08000266        0x2 build/stm32g4xx_it.o
+                0x08000266                PendSV_Handler
+ .text.SysTick_Handler
+                0x08000268        0x8 build/stm32g4xx_it.o
+                0x08000268                SysTick_Handler
+ .text.HAL_MspInit
+                0x08000270       0x38 build/stm32g4xx_hal_msp.o
+                0x08000270                HAL_MspInit
+ .text.HAL_PWREx_ControlVoltageScaling
+                0x080002a8      0x10c build/stm32g4xx_hal_pwr_ex.o
+                0x080002a8                HAL_PWREx_ControlVoltageScaling
+ .text.HAL_PWREx_DisableUCPDDeadBattery
+                0x080003b4       0x10 build/stm32g4xx_hal_pwr_ex.o
+                0x080003b4                HAL_PWREx_DisableUCPDDeadBattery
+ .text.HAL_InitTick
+                0x080003c4       0x50 build/stm32g4xx_hal.o
+                0x080003c4                HAL_InitTick
+ .text.HAL_Init
+                0x08000414       0x1e build/stm32g4xx_hal.o
+                0x08000414                HAL_Init
+ *fill*         0x08000432        0x2 
+ .text.HAL_IncTick
+                0x08000434       0x18 build/stm32g4xx_hal.o
+                0x08000434                HAL_IncTick
+ .text.HAL_GetTick
+                0x0800044c        0xc build/stm32g4xx_hal.o
+                0x0800044c                HAL_GetTick
+ .text.HAL_Delay
+                0x08000458       0x28 build/stm32g4xx_hal.o
+                0x08000458                HAL_Delay
+ .text.RCC_GetSysClockFreqFromPLLSource
+                0x08000480       0x58 build/stm32g4xx_hal_rcc.o
+ .text.HAL_RCC_OscConfig
+                0x080004d8      0x4e4 build/stm32g4xx_hal_rcc.o
+                0x080004d8                HAL_RCC_OscConfig
+ .text.HAL_RCC_GetSysClockFreq
+                0x080009bc       0x88 build/stm32g4xx_hal_rcc.o
+                0x080009bc                HAL_RCC_GetSysClockFreq
+ .text.HAL_RCC_ClockConfig
+                0x08000a44      0x1f8 build/stm32g4xx_hal_rcc.o
+                0x08000a44                HAL_RCC_ClockConfig
+ .text.HAL_GPIO_TogglePin
+                0x08000c3c       0x12 build/stm32g4xx_hal_gpio.o
+                0x08000c3c                HAL_GPIO_TogglePin
+ *fill*         0x08000c4e        0x2 
+ .text.HAL_NVIC_SetPriorityGrouping
+                0x08000c50       0x24 build/stm32g4xx_hal_cortex.o
+                0x08000c50                HAL_NVIC_SetPriorityGrouping
+ .text.HAL_NVIC_SetPriority
+                0x08000c74       0x70 build/stm32g4xx_hal_cortex.o
+                0x08000c74                HAL_NVIC_SetPriority
+ .text.HAL_SYSTICK_Config
+                0x08000ce4       0x28 build/stm32g4xx_hal_cortex.o
+                0x08000ce4                HAL_SYSTICK_Config
+ .text.SystemInit
+                0x08000d0c       0x14 build/system_stm32g4xx.o
+                0x08000d0c                SystemInit
+ .text.Reset_Handler
+                0x08000d20       0x50 build/startup_stm32g491xx.o
+                0x08000d20                Reset_Handler
+ .text.Default_Handler
+                0x08000d70        0x2 build/startup_stm32g491xx.o
+                0x08000d70                RTC_Alarm_IRQHandler
+                0x08000d70                EXTI2_IRQHandler
+                0x08000d70                TIM8_TRG_COM_IRQHandler
+                0x08000d70                TIM8_CC_IRQHandler
+                0x08000d70                TIM1_CC_IRQHandler
+                0x08000d70                USB_HP_IRQHandler
+                0x08000d70                CORDIC_IRQHandler
+                0x08000d70                DMA2_Channel8_IRQHandler
+                0x08000d70                EXTI3_IRQHandler
+                0x08000d70                I2C3_ER_IRQHandler
+                0x08000d70                EXTI0_IRQHandler
+                0x08000d70                I2C2_EV_IRQHandler
+                0x08000d70                FPU_IRQHandler
+                0x08000d70                FDCAN1_IT1_IRQHandler
+                0x08000d70                TIM1_UP_TIM16_IRQHandler
+                0x08000d70                ADC1_2_IRQHandler
+                0x08000d70                SPI1_IRQHandler
+                0x08000d70                TIM6_DAC_IRQHandler
+                0x08000d70                TIM8_UP_IRQHandler
+                0x08000d70                DMA2_Channel2_IRQHandler
+                0x08000d70                DMA1_Channel4_IRQHandler
+                0x08000d70                TIM20_TRG_COM_IRQHandler
+                0x08000d70                USART3_IRQHandler
+                0x08000d70                DMA1_Channel7_IRQHandler
+                0x08000d70                UART5_IRQHandler
+                0x08000d70                ADC3_IRQHandler
+                0x08000d70                TIM4_IRQHandler
+                0x08000d70                DMA2_Channel1_IRQHandler
+                0x08000d70                QUADSPI_IRQHandler
+                0x08000d70                I2C1_EV_IRQHandler
+                0x08000d70                DMA1_Channel6_IRQHandler
+                0x08000d70                UART4_IRQHandler
+                0x08000d70                DMA2_Channel4_IRQHandler
+                0x08000d70                TIM3_IRQHandler
+                0x08000d70                RCC_IRQHandler
+                0x08000d70                TIM20_UP_IRQHandler
+                0x08000d70                DMA1_Channel1_IRQHandler
+                0x08000d70                Default_Handler
+                0x08000d70                DMA2_Channel7_IRQHandler
+                0x08000d70                RTC_TAMP_LSECSS_IRQHandler
+                0x08000d70                FMAC_IRQHandler
+                0x08000d70                EXTI15_10_IRQHandler
+                0x08000d70                DMA1_Channel8_IRQHandler
+                0x08000d70                TIM7_IRQHandler
+                0x08000d70                UCPD1_IRQHandler
+                0x08000d70                I2C3_EV_IRQHandler
+                0x08000d70                EXTI9_5_IRQHandler
+                0x08000d70                RTC_WKUP_IRQHandler
+                0x08000d70                PVD_PVM_IRQHandler
+                0x08000d70                SPI2_IRQHandler
+                0x08000d70                DMA2_Channel5_IRQHandler
+                0x08000d70                CRS_IRQHandler
+                0x08000d70                DMA1_Channel5_IRQHandler
+                0x08000d70                USB_LP_IRQHandler
+                0x08000d70                EXTI4_IRQHandler
+                0x08000d70                RNG_IRQHandler
+                0x08000d70                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08000d70                FDCAN2_IT1_IRQHandler
+                0x08000d70                DMA1_Channel3_IRQHandler
+                0x08000d70                WWDG_IRQHandler
+                0x08000d70                FDCAN2_IT0_IRQHandler
+                0x08000d70                LPUART1_IRQHandler
+                0x08000d70                DMA2_Channel6_IRQHandler
+                0x08000d70                FDCAN1_IT0_IRQHandler
+                0x08000d70                TIM2_IRQHandler
+                0x08000d70                COMP1_2_3_IRQHandler
+                0x08000d70                EXTI1_IRQHandler
+                0x08000d70                USART2_IRQHandler
+                0x08000d70                TIM20_BRK_IRQHandler
+                0x08000d70                I2C2_ER_IRQHandler
+                0x08000d70                DMA1_Channel2_IRQHandler
+                0x08000d70                TIM8_BRK_IRQHandler
+                0x08000d70                FLASH_IRQHandler
+                0x08000d70                TIM20_CC_IRQHandler
+                0x08000d70                USART1_IRQHandler
+                0x08000d70                SPI3_IRQHandler
+                0x08000d70                I2C1_ER_IRQHandler
+                0x08000d70                LPTIM1_IRQHandler
+                0x08000d70                DMAMUX_OVR_IRQHandler
+                0x08000d70                USBWakeUp_IRQHandler
+                0x08000d70                SAI1_IRQHandler
+                0x08000d70                DMA2_Channel3_IRQHandler
+                0x08000d70                COMP4_IRQHandler
+                0x08000d70                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x08000d72        0x2 
+ .text.__libc_init_array
+                0x08000d74       0x48 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+                0x08000d74                __libc_init_array
+ .text.memset   0x08000dbc       0x10 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+                0x08000dbc                memset
+ *(.glue_7)
+ .glue_7        0x08000dcc        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x08000dcc        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ .init          0x08000dcc        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08000dcc                _init
+ .init          0x08000dd0        0x8 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ *(.fini)
+ .fini          0x08000dd8        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08000dd8                _fini
+ .fini          0x08000ddc        0x8 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x08000de4                . = ALIGN (0x4)
+                0x08000de4                _etext = .
+
+.vfp11_veneer   0x08000de4        0x0
+ .vfp11_veneer  0x08000de4        0x0 linker stubs
+
+.v4_bx          0x08000de4        0x0
+ .v4_bx         0x08000de4        0x0 linker stubs
+
+.iplt           0x08000de4        0x0
+ .iplt          0x08000de4        0x0 build/main.o
+
+.rodata         0x08000de4       0x10
+                0x08000de4                . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.AHBPrescTable
+                0x08000de4       0x10 build/system_stm32g4xx.o
+                0x08000de4                AHBPrescTable
+                0x08000df4                . = ALIGN (0x4)
+
+.rel.dyn        0x08000df4        0x0
+ .rel.iplt      0x08000df4        0x0 build/main.o
+
+.ARM.extab      0x08000df4        0x0
+                0x08000df4                . = ALIGN (0x4)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08000df4                . = ALIGN (0x4)
+
+.ARM            0x08000df4        0x0
+                0x08000df4                . = ALIGN (0x4)
+                0x08000df4                __exidx_start = .
+ *(.ARM.exidx*)
+                0x08000df4                __exidx_end = .
+                0x08000df4                . = ALIGN (0x4)
+
+.preinit_array  0x08000df4        0x0
+                0x08000df4                . = ALIGN (0x4)
+                0x08000df4                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x08000df4                PROVIDE (__preinit_array_end = .)
+                0x08000df4                . = ALIGN (0x4)
+                0x08000df4                _sidata = LOADADDR (.data)
+
+.data           0x20000000        0xc load address 0x08000df4
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.uwTickFreq
+                0x20000000        0x4 build/stm32g4xx_hal.o
+                0x20000000                uwTickFreq
+ .data.uwTickPrio
+                0x20000004        0x4 build/stm32g4xx_hal.o
+                0x20000004                uwTickPrio
+ .data.SystemCoreClock
+                0x20000008        0x4 build/system_stm32g4xx.o
+                0x20000008                SystemCoreClock
+ *(.RamFunc)
+ *(.RamFunc*)
+                0x2000000c                . = ALIGN (0x4)
+                0x2000000c                _edata = .
+
+.igot.plt       0x2000000c        0x0 load address 0x08000e00
+ .igot.plt      0x2000000c        0x0 build/main.o
+                0x2000000c                . = ALIGN (0x4)
+
+.bss            0x2000000c        0x4 load address 0x08000e00
+                0x2000000c                _sbss = .
+                0x2000000c                __bss_start__ = _sbss
+ *(.bss)
+ *(.bss*)
+ .bss.uwTick    0x2000000c        0x4 build/stm32g4xx_hal.o
+                0x2000000c                uwTick
+ *(COMMON)
+                0x20000010                . = ALIGN (0x4)
+                0x20000010                _ebss = .
+                0x20000010                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x20000010      0x600 load address 0x08000e00
+                0x20000010                . = ALIGN (0x8)
+                [!provide]                PROVIDE (end = .)
+                0x20000010                PROVIDE (_end = .)
+                0x20000210                . = (. + _Min_Heap_Size)
+ *fill*         0x20000010      0x200 
+                0x20000610                . = (. + _Min_Stack_Size)
+ *fill*         0x20000210      0x400 
+                0x20000610                . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+OUTPUT(build/blink.elf elf32-littlearm)
+LOAD linker stubs
+LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a
+LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
+LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a
+
+.ARM.attributes
+                0x00000000       0x30
+ .ARM.attributes
+                0x00000000       0x1e c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+ .ARM.attributes
+                0x0000001e       0x34 build/main.o
+ .ARM.attributes
+                0x00000052       0x34 build/stm32g4xx_it.o
+ .ARM.attributes
+                0x00000086       0x34 build/stm32g4xx_hal_msp.o
+ .ARM.attributes
+                0x000000ba       0x34 build/stm32g4xx_hal_pwr_ex.o
+ .ARM.attributes
+                0x000000ee       0x34 build/stm32g4xx_hal.o
+ .ARM.attributes
+                0x00000122       0x34 build/stm32g4xx_hal_rcc.o
+ .ARM.attributes
+                0x00000156       0x34 build/stm32g4xx_hal_gpio.o
+ .ARM.attributes
+                0x0000018a       0x34 build/stm32g4xx_hal_cortex.o
+ .ARM.attributes
+                0x000001be       0x34 build/system_stm32g4xx.o
+ .ARM.attributes
+                0x000001f2       0x21 build/startup_stm32g491xx.o
+ .ARM.attributes
+                0x00000213       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000247       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000027b       0x1e c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+
+.comment        0x00000000       0x49
+ .comment       0x00000000       0x49 build/main.o
+                                 0x4a (size before relaxing)
+ .comment       0x00000049       0x4a build/stm32g4xx_it.o
+ .comment       0x00000049       0x4a build/stm32g4xx_hal_msp.o
+ .comment       0x00000049       0x4a build/stm32g4xx_hal_pwr_ex.o
+ .comment       0x00000049       0x4a build/stm32g4xx_hal.o
+ .comment       0x00000049       0x4a build/stm32g4xx_hal_rcc.o
+ .comment       0x00000049       0x4a build/stm32g4xx_hal_gpio.o
+ .comment       0x00000049       0x4a build/stm32g4xx_hal_cortex.o
+ .comment       0x00000049       0x4a build/system_stm32g4xx.o
+
+.debug_info     0x00000000     0x536a
+ .debug_info    0x00000000      0x4bd build/main.o
+ .debug_info    0x000004bd      0x15b build/stm32g4xx_it.o
+ .debug_info    0x00000618      0x3a1 build/stm32g4xx_hal_msp.o
+ .debug_info    0x000009b9      0xb25 build/stm32g4xx_hal_pwr_ex.o
+ .debug_info    0x000014de      0xd32 build/stm32g4xx_hal.o
+ .debug_info    0x00002210      0xff1 build/stm32g4xx_hal_rcc.o
+ .debug_info    0x00003201      0x93d build/stm32g4xx_hal_gpio.o
+ .debug_info    0x00003b3e     0x11c1 build/stm32g4xx_hal_cortex.o
+ .debug_info    0x00004cff      0x649 build/system_stm32g4xx.o
+ .debug_info    0x00005348       0x22 build/startup_stm32g491xx.o
+
+.debug_abbrev   0x00000000     0x115a
+ .debug_abbrev  0x00000000      0x1c4 build/main.o
+ .debug_abbrev  0x000001c4       0x81 build/stm32g4xx_it.o
+ .debug_abbrev  0x00000245       0xd9 build/stm32g4xx_hal_msp.o
+ .debug_abbrev  0x0000031e      0x264 build/stm32g4xx_hal_pwr_ex.o
+ .debug_abbrev  0x00000582      0x25d build/stm32g4xx_hal.o
+ .debug_abbrev  0x000007df      0x2ac build/stm32g4xx_hal_rcc.o
+ .debug_abbrev  0x00000a8b      0x229 build/stm32g4xx_hal_gpio.o
+ .debug_abbrev  0x00000cb4      0x379 build/stm32g4xx_hal_cortex.o
+ .debug_abbrev  0x0000102d      0x11b build/system_stm32g4xx.o
+ .debug_abbrev  0x00001148       0x12 build/startup_stm32g491xx.o
+
+.debug_loc      0x00000000     0x23ce
+ .debug_loc     0x00000000       0x66 build/main.o
+ .debug_loc     0x00000066       0x20 build/stm32g4xx_it.o
+ .debug_loc     0x00000086       0x38 build/stm32g4xx_hal_msp.o
+ .debug_loc     0x000000be      0xa26 build/stm32g4xx_hal_pwr_ex.o
+ .debug_loc     0x00000ae4      0x2af build/stm32g4xx_hal.o
+ .debug_loc     0x00000d93      0x999 build/stm32g4xx_hal_rcc.o
+ .debug_loc     0x0000172c      0x46f build/stm32g4xx_hal_gpio.o
+ .debug_loc     0x00001b9b      0x796 build/stm32g4xx_hal_cortex.o
+ .debug_loc     0x00002331       0x9d build/system_stm32g4xx.o
+
+.debug_aranges  0x00000000      0x530
+ .debug_aranges
+                0x00000000       0x30 build/main.o
+ .debug_aranges
+                0x00000030       0x60 build/stm32g4xx_it.o
+ .debug_aranges
+                0x00000090       0x20 build/stm32g4xx_hal_msp.o
+ .debug_aranges
+                0x000000b0      0x140 build/stm32g4xx_hal_pwr_ex.o
+ .debug_aranges
+                0x000001f0      0x148 build/stm32g4xx_hal.o
+ .debug_aranges
+                0x00000338       0x98 build/stm32g4xx_hal_rcc.o
+ .debug_aranges
+                0x000003d0       0x58 build/stm32g4xx_hal_gpio.o
+ .debug_aranges
+                0x00000428       0xb8 build/stm32g4xx_hal_cortex.o
+ .debug_aranges
+                0x000004e0       0x28 build/system_stm32g4xx.o
+ .debug_aranges
+                0x00000508       0x28 build/startup_stm32g491xx.o
+
+.debug_ranges   0x00000000      0x510
+ .debug_ranges  0x00000000       0x20 build/main.o
+ .debug_ranges  0x00000020       0x50 build/stm32g4xx_it.o
+ .debug_ranges  0x00000070       0x10 build/stm32g4xx_hal_msp.o
+ .debug_ranges  0x00000080      0x130 build/stm32g4xx_hal_pwr_ex.o
+ .debug_ranges  0x000001b0      0x138 build/stm32g4xx_hal.o
+ .debug_ranges  0x000002e8       0xa0 build/stm32g4xx_hal_rcc.o
+ .debug_ranges  0x00000388       0x48 build/stm32g4xx_hal_gpio.o
+ .debug_ranges  0x000003d0      0x108 build/stm32g4xx_hal_cortex.o
+ .debug_ranges  0x000004d8       0x18 build/system_stm32g4xx.o
+ .debug_ranges  0x000004f0       0x20 build/startup_stm32g491xx.o
+
+.debug_line     0x00000000     0x37e0
+ .debug_line    0x00000000      0x324 build/main.o
+ .debug_line    0x00000324      0x179 build/stm32g4xx_it.o
+ .debug_line    0x0000049d      0x1d8 build/stm32g4xx_hal_msp.o
+ .debug_line    0x00000675      0xaaa build/stm32g4xx_hal_pwr_ex.o
+ .debug_line    0x0000111f      0x70b build/stm32g4xx_hal.o
+ .debug_line    0x0000182a      0xe28 build/stm32g4xx_hal_rcc.o
+ .debug_line    0x00002652      0x6ce build/stm32g4xx_hal_gpio.o
+ .debug_line    0x00002d20      0x7ca build/stm32g4xx_hal_cortex.o
+ .debug_line    0x000034ea      0x27f build/system_stm32g4xx.o
+ .debug_line    0x00003769       0x77 build/startup_stm32g491xx.o
+
+.debug_str      0x00000000     0x1e1f
+ .debug_str     0x00000000      0x3a1 build/main.o
+                                0x3f8 (size before relaxing)
+ .debug_str     0x000003a1       0xb4 build/stm32g4xx_it.o
+                                0x246 (size before relaxing)
+ .debug_str     0x00000455      0x19e build/stm32g4xx_hal_msp.o
+                                0x349 (size before relaxing)
+ .debug_str     0x000005f3      0x5af build/stm32g4xx_hal_pwr_ex.o
+                                0x7fd (size before relaxing)
+ .debug_str     0x00000ba2      0x9b8 build/stm32g4xx_hal.o
+                                0xd49 (size before relaxing)
+ .debug_str     0x0000155a      0x2cb build/stm32g4xx_hal_rcc.o
+                                0x84a (size before relaxing)
+ .debug_str     0x00001825      0x105 build/stm32g4xx_hal_gpio.o
+                                0x55b (size before relaxing)
+ .debug_str     0x0000192a      0x494 build/stm32g4xx_hal_cortex.o
+                                0xca9 (size before relaxing)
+ .debug_str     0x00001dbe       0x3d build/system_stm32g4xx.o
+                                0x3e2 (size before relaxing)
+ .debug_str     0x00001dfb       0x24 build/startup_stm32g491xx.o
+                                 0x81 (size before relaxing)
+
+.debug_frame    0x00000000      0xa84
+ .debug_frame   0x00000000       0x58 build/main.o
+ .debug_frame   0x00000058       0xa8 build/stm32g4xx_it.o
+ .debug_frame   0x00000100       0x2c build/stm32g4xx_hal_msp.o
+ .debug_frame   0x0000012c      0x268 build/stm32g4xx_hal_pwr_ex.o
+ .debug_frame   0x00000394      0x2a4 build/stm32g4xx_hal.o
+ .debug_frame   0x00000638      0x198 build/stm32g4xx_hal_rcc.o
+ .debug_frame   0x000007d0       0xd0 build/stm32g4xx_hal_gpio.o
+ .debug_frame   0x000008a0      0x168 build/stm32g4xx_hal_cortex.o
+ .debug_frame   0x00000a08       0x30 build/system_stm32g4xx.o
+ .debug_frame   0x00000a38       0x2c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000a64       0x20 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+
+Cross Reference Table
+
+Symbol                                            File
+ADC1_2_IRQHandler                                 build/startup_stm32g491xx.o
+ADC3_IRQHandler                                   build/startup_stm32g491xx.o
+AHBPrescTable                                     build/system_stm32g4xx.o
+                                                  build/stm32g4xx_hal_rcc.o
+APBPrescTable                                     build/system_stm32g4xx.o
+                                                  build/stm32g4xx_hal_rcc.o
+BusFault_Handler                                  build/stm32g4xx_it.o
+COMP1_2_3_IRQHandler                              build/startup_stm32g491xx.o
+COMP4_IRQHandler                                  build/startup_stm32g491xx.o
+CORDIC_IRQHandler                                 build/startup_stm32g491xx.o
+CRS_IRQHandler                                    build/startup_stm32g491xx.o
+DMA1_Channel1_IRQHandler                          build/startup_stm32g491xx.o
+DMA1_Channel2_IRQHandler                          build/startup_stm32g491xx.o
+DMA1_Channel3_IRQHandler                          build/startup_stm32g491xx.o
+DMA1_Channel4_IRQHandler                          build/startup_stm32g491xx.o
+DMA1_Channel5_IRQHandler                          build/startup_stm32g491xx.o
+DMA1_Channel6_IRQHandler                          build/startup_stm32g491xx.o
+DMA1_Channel7_IRQHandler                          build/startup_stm32g491xx.o
+DMA1_Channel8_IRQHandler                          build/startup_stm32g491xx.o
+DMA2_Channel1_IRQHandler                          build/startup_stm32g491xx.o
+DMA2_Channel2_IRQHandler                          build/startup_stm32g491xx.o
+DMA2_Channel3_IRQHandler                          build/startup_stm32g491xx.o
+DMA2_Channel4_IRQHandler                          build/startup_stm32g491xx.o
+DMA2_Channel5_IRQHandler                          build/startup_stm32g491xx.o
+DMA2_Channel6_IRQHandler                          build/startup_stm32g491xx.o
+DMA2_Channel7_IRQHandler                          build/startup_stm32g491xx.o
+DMA2_Channel8_IRQHandler                          build/startup_stm32g491xx.o
+DMAMUX_OVR_IRQHandler                             build/startup_stm32g491xx.o
+DebugMon_Handler                                  build/stm32g4xx_it.o
+Default_Handler                                   build/startup_stm32g491xx.o
+EXTI0_IRQHandler                                  build/startup_stm32g491xx.o
+EXTI15_10_IRQHandler                              build/startup_stm32g491xx.o
+EXTI1_IRQHandler                                  build/startup_stm32g491xx.o
+EXTI2_IRQHandler                                  build/startup_stm32g491xx.o
+EXTI3_IRQHandler                                  build/startup_stm32g491xx.o
+EXTI4_IRQHandler                                  build/startup_stm32g491xx.o
+EXTI9_5_IRQHandler                                build/startup_stm32g491xx.o
+Error_Handler                                     build/main.o
+FDCAN1_IT0_IRQHandler                             build/startup_stm32g491xx.o
+FDCAN1_IT1_IRQHandler                             build/startup_stm32g491xx.o
+FDCAN2_IT0_IRQHandler                             build/startup_stm32g491xx.o
+FDCAN2_IT1_IRQHandler                             build/startup_stm32g491xx.o
+FLASH_FlushCaches                                 build/stm32g4xx_hal_flash_ex.o
+                                                  build/stm32g4xx_hal_flash.o
+FLASH_IRQHandler                                  build/startup_stm32g491xx.o
+FLASH_PageErase                                   build/stm32g4xx_hal_flash_ex.o
+                                                  build/stm32g4xx_hal_flash.o
+FLASH_WaitForLastOperation                        build/stm32g4xx_hal_flash.o
+                                                  build/stm32g4xx_hal_flash_ex.o
+FMAC_IRQHandler                                   build/startup_stm32g491xx.o
+FPU_IRQHandler                                    build/startup_stm32g491xx.o
+HAL_DBGMCU_DisableDBGSleepMode                    build/stm32g4xx_hal.o
+HAL_DBGMCU_DisableDBGStandbyMode                  build/stm32g4xx_hal.o
+HAL_DBGMCU_DisableDBGStopMode                     build/stm32g4xx_hal.o
+HAL_DBGMCU_EnableDBGSleepMode                     build/stm32g4xx_hal.o
+HAL_DBGMCU_EnableDBGStandbyMode                   build/stm32g4xx_hal.o
+HAL_DBGMCU_EnableDBGStopMode                      build/stm32g4xx_hal.o
+HAL_DMAEx_ConfigMuxRequestGenerator               build/stm32g4xx_hal_dma_ex.o
+HAL_DMAEx_ConfigMuxSync                           build/stm32g4xx_hal_dma_ex.o
+HAL_DMAEx_DisableMuxRequestGenerator              build/stm32g4xx_hal_dma_ex.o
+HAL_DMAEx_EnableMuxRequestGenerator               build/stm32g4xx_hal_dma_ex.o
+HAL_DMAEx_MUX_IRQHandler                          build/stm32g4xx_hal_dma_ex.o
+HAL_DMA_Abort                                     build/stm32g4xx_hal_dma.o
+HAL_DMA_Abort_IT                                  build/stm32g4xx_hal_dma.o
+HAL_DMA_DeInit                                    build/stm32g4xx_hal_dma.o
+HAL_DMA_GetError                                  build/stm32g4xx_hal_dma.o
+HAL_DMA_GetState                                  build/stm32g4xx_hal_dma.o
+HAL_DMA_IRQHandler                                build/stm32g4xx_hal_dma.o
+HAL_DMA_Init                                      build/stm32g4xx_hal_dma.o
+HAL_DMA_PollForTransfer                           build/stm32g4xx_hal_dma.o
+HAL_DMA_RegisterCallback                          build/stm32g4xx_hal_dma.o
+HAL_DMA_Start                                     build/stm32g4xx_hal_dma.o
+HAL_DMA_Start_IT                                  build/stm32g4xx_hal_dma.o
+HAL_DMA_UnRegisterCallback                        build/stm32g4xx_hal_dma.o
+HAL_DeInit                                        build/stm32g4xx_hal.o
+HAL_Delay                                         build/stm32g4xx_hal.o
+                                                  build/main.o
+HAL_EXTI_ClearConfigLine                          build/stm32g4xx_hal_exti.o
+HAL_EXTI_ClearPending                             build/stm32g4xx_hal_exti.o
+HAL_EXTI_GenerateSWI                              build/stm32g4xx_hal_exti.o
+HAL_EXTI_GetConfigLine                            build/stm32g4xx_hal_exti.o
+HAL_EXTI_GetHandle                                build/stm32g4xx_hal_exti.o
+HAL_EXTI_GetPending                               build/stm32g4xx_hal_exti.o
+HAL_EXTI_IRQHandler                               build/stm32g4xx_hal_exti.o
+HAL_EXTI_RegisterCallback                         build/stm32g4xx_hal_exti.o
+HAL_EXTI_SetConfigLine                            build/stm32g4xx_hal_exti.o
+HAL_FLASHEx_DisableDebugger                       build/stm32g4xx_hal_flash_ex.o
+HAL_FLASHEx_DisableRunPowerDown                   build/stm32g4xx_hal_flash_ramfunc.o
+HAL_FLASHEx_EnableDebugger                        build/stm32g4xx_hal_flash_ex.o
+HAL_FLASHEx_EnableRunPowerDown                    build/stm32g4xx_hal_flash_ramfunc.o
+HAL_FLASHEx_EnableSecMemProtection                build/stm32g4xx_hal_flash_ex.o
+HAL_FLASHEx_Erase                                 build/stm32g4xx_hal_flash_ex.o
+HAL_FLASHEx_Erase_IT                              build/stm32g4xx_hal_flash_ex.o
+HAL_FLASHEx_OBGetConfig                           build/stm32g4xx_hal_flash_ex.o
+HAL_FLASHEx_OBProgram                             build/stm32g4xx_hal_flash_ex.o
+HAL_FLASH_EndOfOperationCallback                  build/stm32g4xx_hal_flash.o
+HAL_FLASH_GetError                                build/stm32g4xx_hal_flash.o
+HAL_FLASH_IRQHandler                              build/stm32g4xx_hal_flash.o
+HAL_FLASH_Lock                                    build/stm32g4xx_hal_flash.o
+HAL_FLASH_OB_Launch                               build/stm32g4xx_hal_flash.o
+HAL_FLASH_OB_Lock                                 build/stm32g4xx_hal_flash.o
+HAL_FLASH_OB_Unlock                               build/stm32g4xx_hal_flash.o
+HAL_FLASH_OperationErrorCallback                  build/stm32g4xx_hal_flash.o
+HAL_FLASH_Program                                 build/stm32g4xx_hal_flash.o
+HAL_FLASH_Program_IT                              build/stm32g4xx_hal_flash.o
+HAL_FLASH_Unlock                                  build/stm32g4xx_hal_flash.o
+HAL_GPIO_DeInit                                   build/stm32g4xx_hal_gpio.o
+HAL_GPIO_EXTI_Callback                            build/stm32g4xx_hal_gpio.o
+HAL_GPIO_EXTI_IRQHandler                          build/stm32g4xx_hal_gpio.o
+HAL_GPIO_Init                                     build/stm32g4xx_hal_gpio.o
+                                                  build/stm32g4xx_hal_rcc_ex.o
+                                                  build/stm32g4xx_hal_rcc.o
+HAL_GPIO_LockPin                                  build/stm32g4xx_hal_gpio.o
+HAL_GPIO_ReadPin                                  build/stm32g4xx_hal_gpio.o
+HAL_GPIO_TogglePin                                build/stm32g4xx_hal_gpio.o
+                                                  build/main.o
+HAL_GPIO_WritePin                                 build/stm32g4xx_hal_gpio.o
+HAL_GetDEVID                                      build/stm32g4xx_hal.o
+HAL_GetHalVersion                                 build/stm32g4xx_hal.o
+HAL_GetREVID                                      build/stm32g4xx_hal.o
+HAL_GetTick                                       build/stm32g4xx_hal.o
+                                                  build/stm32g4xx_hal_dma.o
+                                                  build/stm32g4xx_hal_flash.o
+                                                  build/stm32g4xx_hal_rcc_ex.o
+                                                  build/stm32g4xx_hal_rcc.o
+HAL_GetTickFreq                                   build/stm32g4xx_hal.o
+HAL_GetTickPrio                                   build/stm32g4xx_hal.o
+HAL_GetUIDw0                                      build/stm32g4xx_hal.o
+HAL_GetUIDw1                                      build/stm32g4xx_hal.o
+HAL_GetUIDw2                                      build/stm32g4xx_hal.o
+HAL_IncTick                                       build/stm32g4xx_hal.o
+                                                  build/stm32g4xx_it.o
+HAL_Init                                          build/stm32g4xx_hal.o
+                                                  build/main.o
+HAL_InitTick                                      build/stm32g4xx_hal.o
+                                                  build/stm32g4xx_hal_rcc.o
+HAL_MPU_ConfigRegion                              build/stm32g4xx_hal_cortex.o
+HAL_MPU_Disable                                   build/stm32g4xx_hal_cortex.o
+HAL_MPU_DisableRegion                             build/stm32g4xx_hal_cortex.o
+HAL_MPU_Enable                                    build/stm32g4xx_hal_cortex.o
+HAL_MPU_EnableRegion                              build/stm32g4xx_hal_cortex.o
+HAL_MspDeInit                                     build/stm32g4xx_hal.o
+HAL_MspInit                                       build/stm32g4xx_hal_msp.o
+HAL_NVIC_ClearPendingIRQ                          build/stm32g4xx_hal_cortex.o
+HAL_NVIC_DisableIRQ                               build/stm32g4xx_hal_cortex.o
+HAL_NVIC_EnableIRQ                                build/stm32g4xx_hal_cortex.o
+HAL_NVIC_GetActive                                build/stm32g4xx_hal_cortex.o
+HAL_NVIC_GetPendingIRQ                            build/stm32g4xx_hal_cortex.o
+HAL_NVIC_GetPriority                              build/stm32g4xx_hal_cortex.o
+HAL_NVIC_GetPriorityGrouping                      build/stm32g4xx_hal_cortex.o
+HAL_NVIC_SetPendingIRQ                            build/stm32g4xx_hal_cortex.o
+HAL_NVIC_SetPriority                              build/stm32g4xx_hal_cortex.o
+                                                  build/stm32g4xx_hal.o
+HAL_NVIC_SetPriorityGrouping                      build/stm32g4xx_hal_cortex.o
+                                                  build/stm32g4xx_hal.o
+HAL_NVIC_SystemReset                              build/stm32g4xx_hal_cortex.o
+HAL_PWREx_ConfigPVM                               build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_ControlVoltageScaling                   build/stm32g4xx_hal_pwr_ex.o
+                                                  build/main.o
+HAL_PWREx_DisableBatteryCharging                  build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_DisableGPIOPullDown                     build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_DisableGPIOPullUp                       build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_DisableInternalWakeUpLine               build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_DisableLowPowerRunMode                  build/stm32g4xx_hal_pwr_ex.o
+                                                  build/stm32g4xx_hal_pwr.o
+HAL_PWREx_DisablePVM1                             build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_DisablePVM2                             build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_DisablePVM3                             build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_DisablePVM4                             build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_DisablePullUpPullDownConfig             build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_DisableSRAM2ContentRetention            build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_DisableUCPDDeadBattery                  build/stm32g4xx_hal_pwr_ex.o
+                                                  build/stm32g4xx_hal_msp.o
+HAL_PWREx_DisableUCPDStandbyMode                  build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_EnableBatteryCharging                   build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_EnableGPIOPullDown                      build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_EnableGPIOPullUp                        build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_EnableInternalWakeUpLine                build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_EnableLowPowerRunMode                   build/stm32g4xx_hal_pwr_ex.o
+                                                  build/stm32g4xx_hal_pwr.o
+HAL_PWREx_EnablePVM1                              build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_EnablePVM2                              build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_EnablePVM3                              build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_EnablePVM4                              build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_EnablePullUpPullDownConfig              build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_EnableSRAM2ContentRetention             build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_EnableUCPDDeadBattery                   build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_EnableUCPDStandbyMode                   build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_EnterSHUTDOWNMode                       build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_EnterSTOP0Mode                          build/stm32g4xx_hal_pwr_ex.o
+                                                  build/stm32g4xx_hal_pwr.o
+HAL_PWREx_EnterSTOP1Mode                          build/stm32g4xx_hal_pwr_ex.o
+                                                  build/stm32g4xx_hal_pwr.o
+HAL_PWREx_GetVoltageRange                         build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_PVD_PVM_IRQHandler                      build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_PVM1Callback                            build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_PVM2Callback                            build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_PVM3Callback                            build/stm32g4xx_hal_pwr_ex.o
+HAL_PWREx_PVM4Callback                            build/stm32g4xx_hal_pwr_ex.o
+HAL_PWR_ConfigPVD                                 build/stm32g4xx_hal_pwr.o
+HAL_PWR_DeInit                                    build/stm32g4xx_hal_pwr.o
+HAL_PWR_DisableBkUpAccess                         build/stm32g4xx_hal_pwr.o
+                                                  build/stm32g4xx_hal_rcc_ex.o
+HAL_PWR_DisablePVD                                build/stm32g4xx_hal_pwr.o
+HAL_PWR_DisableSEVOnPend                          build/stm32g4xx_hal_pwr.o
+HAL_PWR_DisableSleepOnExit                        build/stm32g4xx_hal_pwr.o
+HAL_PWR_DisableWakeUpPin                          build/stm32g4xx_hal_pwr.o
+HAL_PWR_EnableBkUpAccess                          build/stm32g4xx_hal_pwr.o
+                                                  build/stm32g4xx_hal_rcc_ex.o
+HAL_PWR_EnablePVD                                 build/stm32g4xx_hal_pwr.o
+HAL_PWR_EnableSEVOnPend                           build/stm32g4xx_hal_pwr.o
+HAL_PWR_EnableSleepOnExit                         build/stm32g4xx_hal_pwr.o
+HAL_PWR_EnableWakeUpPin                           build/stm32g4xx_hal_pwr.o
+HAL_PWR_EnterSLEEPMode                            build/stm32g4xx_hal_pwr.o
+HAL_PWR_EnterSTANDBYMode                          build/stm32g4xx_hal_pwr.o
+HAL_PWR_EnterSTOPMode                             build/stm32g4xx_hal_pwr.o
+HAL_PWR_PVDCallback                               build/stm32g4xx_hal_pwr.o
+                                                  build/stm32g4xx_hal_pwr_ex.o
+HAL_RCCEx_CRSConfig                               build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_CRSGetSynchronizationInfo               build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_CRSSoftwareSynchronizationGenerate      build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_CRSWaitSynchronization                  build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_CRS_ErrorCallback                       build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_CRS_ExpectedSyncCallback                build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_CRS_IRQHandler                          build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_CRS_SyncOkCallback                      build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_CRS_SyncWarnCallback                    build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_DisableLSCO                             build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_DisableLSECSS                           build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_EnableLSCO                              build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_EnableLSECSS                            build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_EnableLSECSS_IT                         build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_GetPeriphCLKConfig                      build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_GetPeriphCLKFreq                        build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_LSECSS_Callback                         build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_LSECSS_IRQHandler                       build/stm32g4xx_hal_rcc_ex.o
+HAL_RCCEx_PeriphCLKConfig                         build/stm32g4xx_hal_rcc_ex.o
+HAL_RCC_CSSCallback                               build/stm32g4xx_hal_rcc.o
+HAL_RCC_ClockConfig                               build/stm32g4xx_hal_rcc.o
+                                                  build/main.o
+HAL_RCC_DeInit                                    build/stm32g4xx_hal_rcc.o
+HAL_RCC_DisableLSECSS                             build/stm32g4xx_hal_rcc.o
+HAL_RCC_EnableCSS                                 build/stm32g4xx_hal_rcc.o
+HAL_RCC_EnableLSECSS                              build/stm32g4xx_hal_rcc.o
+HAL_RCC_GetClockConfig                            build/stm32g4xx_hal_rcc.o
+HAL_RCC_GetHCLKFreq                               build/stm32g4xx_hal_rcc.o
+HAL_RCC_GetOscConfig                              build/stm32g4xx_hal_rcc.o
+HAL_RCC_GetPCLK1Freq                              build/stm32g4xx_hal_rcc.o
+                                                  build/stm32g4xx_hal_rcc_ex.o
+HAL_RCC_GetPCLK2Freq                              build/stm32g4xx_hal_rcc.o
+                                                  build/stm32g4xx_hal_rcc_ex.o
+HAL_RCC_GetSysClockFreq                           build/stm32g4xx_hal_rcc.o
+                                                  build/stm32g4xx_hal_rcc_ex.o
+HAL_RCC_MCOConfig                                 build/stm32g4xx_hal_rcc.o
+HAL_RCC_NMI_IRQHandler                            build/stm32g4xx_hal_rcc.o
+HAL_RCC_OscConfig                                 build/stm32g4xx_hal_rcc.o
+                                                  build/main.o
+HAL_ResumeTick                                    build/stm32g4xx_hal.o
+HAL_SYSCFG_CCMSRAMErase                           build/stm32g4xx_hal.o
+HAL_SYSCFG_CCMSRAM_WriteProtectionEnable          build/stm32g4xx_hal.o
+HAL_SYSCFG_DisableIOSwitchBooster                 build/stm32g4xx_hal.o
+HAL_SYSCFG_DisableIOSwitchVDD                     build/stm32g4xx_hal.o
+HAL_SYSCFG_DisableMemorySwappingBank              build/stm32g4xx_hal.o
+HAL_SYSCFG_DisableVREFBUF                         build/stm32g4xx_hal.o
+HAL_SYSCFG_EnableIOSwitchBooster                  build/stm32g4xx_hal.o
+HAL_SYSCFG_EnableIOSwitchVDD                      build/stm32g4xx_hal.o
+HAL_SYSCFG_EnableMemorySwappingBank               build/stm32g4xx_hal.o
+HAL_SYSCFG_EnableVREFBUF                          build/stm32g4xx_hal.o
+HAL_SYSCFG_VREFBUF_HighImpedanceConfig            build/stm32g4xx_hal.o
+HAL_SYSCFG_VREFBUF_TrimmingConfig                 build/stm32g4xx_hal.o
+HAL_SYSCFG_VREFBUF_VoltageScalingConfig           build/stm32g4xx_hal.o
+HAL_SYSTICK_CLKSourceConfig                       build/stm32g4xx_hal_cortex.o
+HAL_SYSTICK_Callback                              build/stm32g4xx_hal_cortex.o
+HAL_SYSTICK_Config                                build/stm32g4xx_hal_cortex.o
+                                                  build/stm32g4xx_hal.o
+HAL_SYSTICK_IRQHandler                            build/stm32g4xx_hal_cortex.o
+HAL_SetTickFreq                                   build/stm32g4xx_hal.o
+HAL_SuspendTick                                   build/stm32g4xx_hal.o
+HardFault_Handler                                 build/stm32g4xx_it.o
+I2C1_ER_IRQHandler                                build/startup_stm32g491xx.o
+I2C1_EV_IRQHandler                                build/startup_stm32g491xx.o
+I2C2_ER_IRQHandler                                build/startup_stm32g491xx.o
+I2C2_EV_IRQHandler                                build/startup_stm32g491xx.o
+I2C3_ER_IRQHandler                                build/startup_stm32g491xx.o
+I2C3_EV_IRQHandler                                build/startup_stm32g491xx.o
+LPTIM1_IRQHandler                                 build/startup_stm32g491xx.o
+LPUART1_IRQHandler                                build/startup_stm32g491xx.o
+MemManage_Handler                                 build/stm32g4xx_it.o
+NMI_Handler                                       build/stm32g4xx_it.o
+PVD_PVM_IRQHandler                                build/startup_stm32g491xx.o
+PendSV_Handler                                    build/stm32g4xx_it.o
+QUADSPI_IRQHandler                                build/startup_stm32g491xx.o
+RCC_IRQHandler                                    build/startup_stm32g491xx.o
+RNG_IRQHandler                                    build/startup_stm32g491xx.o
+RTC_Alarm_IRQHandler                              build/startup_stm32g491xx.o
+RTC_TAMP_LSECSS_IRQHandler                        build/startup_stm32g491xx.o
+RTC_WKUP_IRQHandler                               build/startup_stm32g491xx.o
+Reset_Handler                                     build/startup_stm32g491xx.o
+SAI1_IRQHandler                                   build/startup_stm32g491xx.o
+SPI1_IRQHandler                                   build/startup_stm32g491xx.o
+SPI2_IRQHandler                                   build/startup_stm32g491xx.o
+SPI3_IRQHandler                                   build/startup_stm32g491xx.o
+SVC_Handler                                       build/stm32g4xx_it.o
+SysTick_Handler                                   build/stm32g4xx_it.o
+SystemClock_Config                                build/main.o
+SystemCoreClock                                   build/system_stm32g4xx.o
+                                                  build/stm32g4xx_hal_rcc.o
+                                                  build/stm32g4xx_hal.o
+                                                  build/stm32g4xx_hal_pwr_ex.o
+SystemCoreClockUpdate                             build/system_stm32g4xx.o
+SystemInit                                        build/system_stm32g4xx.o
+                                                  build/startup_stm32g491xx.o
+TIM1_BRK_TIM15_IRQHandler                         build/startup_stm32g491xx.o
+TIM1_CC_IRQHandler                                build/startup_stm32g491xx.o
+TIM1_TRG_COM_TIM17_IRQHandler                     build/startup_stm32g491xx.o
+TIM1_UP_TIM16_IRQHandler                          build/startup_stm32g491xx.o
+TIM20_BRK_IRQHandler                              build/startup_stm32g491xx.o
+TIM20_CC_IRQHandler                               build/startup_stm32g491xx.o
+TIM20_TRG_COM_IRQHandler                          build/startup_stm32g491xx.o
+TIM20_UP_IRQHandler                               build/startup_stm32g491xx.o
+TIM2_IRQHandler                                   build/startup_stm32g491xx.o
+TIM3_IRQHandler                                   build/startup_stm32g491xx.o
+TIM4_IRQHandler                                   build/startup_stm32g491xx.o
+TIM6_DAC_IRQHandler                               build/startup_stm32g491xx.o
+TIM7_IRQHandler                                   build/startup_stm32g491xx.o
+TIM8_BRK_IRQHandler                               build/startup_stm32g491xx.o
+TIM8_CC_IRQHandler                                build/startup_stm32g491xx.o
+TIM8_TRG_COM_IRQHandler                           build/startup_stm32g491xx.o
+TIM8_UP_IRQHandler                                build/startup_stm32g491xx.o
+UART4_IRQHandler                                  build/startup_stm32g491xx.o
+UART5_IRQHandler                                  build/startup_stm32g491xx.o
+UCPD1_IRQHandler                                  build/startup_stm32g491xx.o
+USART1_IRQHandler                                 build/startup_stm32g491xx.o
+USART2_IRQHandler                                 build/startup_stm32g491xx.o
+USART3_IRQHandler                                 build/startup_stm32g491xx.o
+USBWakeUp_IRQHandler                              build/startup_stm32g491xx.o
+USB_HP_IRQHandler                                 build/startup_stm32g491xx.o
+USB_LP_IRQHandler                                 build/startup_stm32g491xx.o
+UsageFault_Handler                                build/stm32g4xx_it.o
+WWDG_IRQHandler                                   build/startup_stm32g491xx.o
+_Min_Stack_Size                                   build/sysmem.o
+__bss_end__                                       c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+__bss_start__                                     c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+__call_exitprocs                                  c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+__deregister_frame_info                           c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+__dso_handle                                      c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+__env                                             build/syscalls.o
+__errno                                           c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-errno.o)
+                                                  build/syscalls.o
+                                                  build/sysmem.o
+__init_array_end                                  c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+__init_array_start                                c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+__io_getchar                                      build/syscalls.o
+__io_putchar                                      build/syscalls.o
+__libc_fini_array                                 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+__libc_init_array                                 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+                                                  build/startup_stm32g491xx.o
+                                                  c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+__preinit_array_end                               c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+__preinit_array_start                             c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+__register_frame_info                             c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+__sf_fake_stderr                                  c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+__sf_fake_stdin                                   c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+__sf_fake_stdout                                  c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+__stack                                           c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+_close                                            build/syscalls.o
+_ebss                                             build/startup_stm32g491xx.o
+_edata                                            build/startup_stm32g491xx.o
+_end                                              build/sysmem.o
+_estack                                           build/startup_stm32g491xx.o
+                                                  build/sysmem.o
+_execve                                           build/syscalls.o
+_exit                                             build/syscalls.o
+                                                  c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+_fini                                             c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+_fork                                             build/syscalls.o
+_fstat                                            build/syscalls.o
+_getpid                                           build/syscalls.o
+_global_impure_ptr                                c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+                                                  c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+_impure_ptr                                       c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+                                                  c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-errno.o)
+_init                                             c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                                                  c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+_isatty                                           build/syscalls.o
+_kill                                             build/syscalls.o
+_link                                             build/syscalls.o
+_lseek                                            build/syscalls.o
+_mainCRTStartup                                   c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+_open                                             build/syscalls.o
+_read                                             build/syscalls.o
+_sbrk                                             build/sysmem.o
+_sbss                                             build/startup_stm32g491xx.o
+_sdata                                            build/startup_stm32g491xx.o
+_sidata                                           build/startup_stm32g491xx.o
+_stack_init                                       c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+_start                                            c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+_stat                                             build/syscalls.o
+_times                                            build/syscalls.o
+_unlink                                           build/syscalls.o
+_wait                                             build/syscalls.o
+_write                                            build/syscalls.o
+atexit                                            c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+environ                                           build/syscalls.o
+exit                                              c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o)
+                                                  c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+g_pfnVectors                                      build/startup_stm32g491xx.o
+hardware_init_hook                                c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+initialise_monitor_handles                        build/syscalls.o
+main                                              build/main.o
+                                                  build/startup_stm32g491xx.o
+                                                  c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+memset                                            c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+                                                  build/main.o
+                                                  c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+pFlash                                            build/stm32g4xx_hal_flash.o
+                                                  build/stm32g4xx_hal_flash_ex.o
+software_init_hook                                c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+uwTick                                            build/stm32g4xx_hal.o
+uwTickFreq                                        build/stm32g4xx_hal.o
+uwTickPrio                                        build/stm32g4xx_hal.o
+                                                  build/stm32g4xx_hal_rcc.o
