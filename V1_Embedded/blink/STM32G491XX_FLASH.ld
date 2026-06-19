@@ -102,13 +102,13 @@ SECTIONS
     *(.rodata*)        /* .rodata* sections (constants, strings, etc.) */
     . = ALIGN(4);
   } >FLASH
-
-   .ARM.extab :
+  /* Explicitly ground the section to the current location counter */
+  .ARM.extab . : 
   {
     . = ALIGN(4);
     *(.ARM.extab* .gnu.linkonce.armextab.*)
     . = ALIGN(4);
-  } >FLASH
+  } >FLASH 
 
   .ARM :
   {
@@ -118,6 +118,8 @@ SECTIONS
     __exidx_end = .;
     . = ALIGN(4);
   } >FLASH
+
+
 
   .preinit_array :
   {

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 1
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -48,89 +48,89 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 1
   18:Core/Src/main.c **** /* USER CODE END Header */
   19:Core/Src/main.c **** /* Includes ------------------------------------------------------------------*/
   20:Core/Src/main.c **** #include "main.h"
-  21:Core/Src/main.c **** 
-  22:Core/Src/main.c **** /* Private includes ----------------------------------------------------------*/
-  23:Core/Src/main.c **** /* USER CODE BEGIN Includes */
-  24:Core/Src/main.c **** 
-  25:Core/Src/main.c **** /* USER CODE END Includes */
+  21:Core/Src/main.c **** #include <stm32g4xx_hal_flash.h>
+  22:Core/Src/main.c **** #include <stm32g4xx_hal_rcc.h>
+  23:Core/Src/main.c **** 
+  24:Core/Src/main.c **** /* Private includes ----------------------------------------------------------*/
+  25:Core/Src/main.c **** /* USER CODE BEGIN Includes */
   26:Core/Src/main.c **** 
-  27:Core/Src/main.c **** /* Private typedef -----------------------------------------------------------*/
-  28:Core/Src/main.c **** /* USER CODE BEGIN PTD */
-  29:Core/Src/main.c **** 
-  30:Core/Src/main.c **** /* USER CODE END PTD */
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 2
+  27:Core/Src/main.c **** /* USER CODE END Includes */
+  28:Core/Src/main.c **** 
+  29:Core/Src/main.c **** /* Private typedef -----------------------------------------------------------*/
+  30:Core/Src/main.c **** /* USER CODE BEGIN PTD */
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s 			page 2
 
 
   31:Core/Src/main.c **** 
-  32:Core/Src/main.c **** /* Private define ------------------------------------------------------------*/
-  33:Core/Src/main.c **** /* USER CODE BEGIN PD */
-  34:Core/Src/main.c **** 
-  35:Core/Src/main.c **** /* USER CODE END PD */
+  32:Core/Src/main.c **** /* USER CODE END PTD */
+  33:Core/Src/main.c **** 
+  34:Core/Src/main.c **** /* Private define ------------------------------------------------------------*/
+  35:Core/Src/main.c **** /* USER CODE BEGIN PD */
   36:Core/Src/main.c **** 
-  37:Core/Src/main.c **** /* Private macro -------------------------------------------------------------*/
-  38:Core/Src/main.c **** /* USER CODE BEGIN PM */
-  39:Core/Src/main.c **** 
-  40:Core/Src/main.c **** /* USER CODE END PM */
+  37:Core/Src/main.c **** /* USER CODE END PD */
+  38:Core/Src/main.c **** 
+  39:Core/Src/main.c **** /* Private macro -------------------------------------------------------------*/
+  40:Core/Src/main.c **** /* USER CODE BEGIN PM */
   41:Core/Src/main.c **** 
-  42:Core/Src/main.c **** /* Private variables ---------------------------------------------------------*/
+  42:Core/Src/main.c **** /* USER CODE END PM */
   43:Core/Src/main.c **** 
-  44:Core/Src/main.c **** /* USER CODE BEGIN PV */
+  44:Core/Src/main.c **** /* Private variables ---------------------------------------------------------*/
   45:Core/Src/main.c **** 
-  46:Core/Src/main.c **** /* USER CODE END PV */
+  46:Core/Src/main.c **** /* USER CODE BEGIN PV */
   47:Core/Src/main.c **** 
-  48:Core/Src/main.c **** /* Private function prototypes -----------------------------------------------*/
-  49:Core/Src/main.c **** void SystemClock_Config(void);
-  50:Core/Src/main.c **** /* USER CODE BEGIN PFP */
-  51:Core/Src/main.c **** 
-  52:Core/Src/main.c **** /* USER CODE END PFP */
+  48:Core/Src/main.c **** /* USER CODE END PV */
+  49:Core/Src/main.c **** 
+  50:Core/Src/main.c **** /* Private function prototypes -----------------------------------------------*/
+  51:Core/Src/main.c **** void SystemClock_Config(void);
+  52:Core/Src/main.c **** /* USER CODE BEGIN PFP */
   53:Core/Src/main.c **** 
-  54:Core/Src/main.c **** /* Private user code ---------------------------------------------------------*/
-  55:Core/Src/main.c **** /* USER CODE BEGIN 0 */
-  56:Core/Src/main.c **** 
-  57:Core/Src/main.c **** /* USER CODE END 0 */
+  54:Core/Src/main.c **** /* USER CODE END PFP */
+  55:Core/Src/main.c **** 
+  56:Core/Src/main.c **** /* Private user code ---------------------------------------------------------*/
+  57:Core/Src/main.c **** /* USER CODE BEGIN 0 */
   58:Core/Src/main.c **** 
-  59:Core/Src/main.c **** /**
-  60:Core/Src/main.c ****   * @brief  The application entry point.
-  61:Core/Src/main.c ****   * @retval int
-  62:Core/Src/main.c ****   */
-  63:Core/Src/main.c **** int main(void)
-  64:Core/Src/main.c **** {
-  65:Core/Src/main.c **** 
-  66:Core/Src/main.c ****   /* USER CODE BEGIN 1 */
+  59:Core/Src/main.c **** /* USER CODE END 0 */
+  60:Core/Src/main.c **** 
+  61:Core/Src/main.c **** /**
+  62:Core/Src/main.c ****   * @brief  The application entry point.
+  63:Core/Src/main.c ****   * @retval int
+  64:Core/Src/main.c ****   */
+  65:Core/Src/main.c **** int main(void)
+  66:Core/Src/main.c **** {
   67:Core/Src/main.c **** 
-  68:Core/Src/main.c ****   /* USER CODE END 1 */
+  68:Core/Src/main.c ****   /* USER CODE BEGIN 1 */
   69:Core/Src/main.c **** 
-  70:Core/Src/main.c ****   /* MCU Configuration--------------------------------------------------------*/
+  70:Core/Src/main.c ****   /* USER CODE END 1 */
   71:Core/Src/main.c **** 
-  72:Core/Src/main.c ****   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  73:Core/Src/main.c ****   HAL_Init();
-  74:Core/Src/main.c **** 
-  75:Core/Src/main.c ****   /* USER CODE BEGIN Init */
+  72:Core/Src/main.c ****   /* MCU Configuration--------------------------------------------------------*/
+  73:Core/Src/main.c **** 
+  74:Core/Src/main.c ****   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+  75:Core/Src/main.c ****   HAL_Init();
   76:Core/Src/main.c **** 
-  77:Core/Src/main.c ****   /* USER CODE END Init */
+  77:Core/Src/main.c ****   /* USER CODE BEGIN Init */
   78:Core/Src/main.c **** 
-  79:Core/Src/main.c ****   /* Configure the system clock */
-  80:Core/Src/main.c ****   SystemClock_Config();
-  81:Core/Src/main.c **** 
-  82:Core/Src/main.c ****   /* USER CODE BEGIN SysInit */
+  79:Core/Src/main.c ****   /* USER CODE END Init */
+  80:Core/Src/main.c **** 
+  81:Core/Src/main.c ****   /* Configure the system clock */
+  82:Core/Src/main.c ****   SystemClock_Config();
   83:Core/Src/main.c **** 
-  84:Core/Src/main.c ****   /* USER CODE END SysInit */
+  84:Core/Src/main.c ****   /* USER CODE BEGIN SysInit */
   85:Core/Src/main.c **** 
-  86:Core/Src/main.c ****   /* Initialize all configured peripherals */
-  87:Core/Src/main.c ****   /* USER CODE BEGIN 2 */
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 3
+  86:Core/Src/main.c ****   /* USER CODE END SysInit */
+  87:Core/Src/main.c **** 
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s 			page 3
 
 
-  88:Core/Src/main.c **** 
-  89:Core/Src/main.c ****   /* USER CODE END 2 */
+  88:Core/Src/main.c ****   /* Initialize all configured peripherals */
+  89:Core/Src/main.c ****   /* USER CODE BEGIN 2 */
   90:Core/Src/main.c **** 
-  91:Core/Src/main.c ****   /* Infinite loop */
-  92:Core/Src/main.c ****   /* USER CODE BEGIN WHILE */
-  93:Core/Src/main.c ****   while (1)
-  94:Core/Src/main.c ****   {
-  95:Core/Src/main.c ****     /* USER CODE END WHILE */
-  96:Core/Src/main.c ****     HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
-  97:Core/Src/main.c ****     HAL_Delay(500);
+  91:Core/Src/main.c ****   /* USER CODE END 2 */
+  92:Core/Src/main.c **** 
+  93:Core/Src/main.c ****   /* Infinite loop */
+  94:Core/Src/main.c ****   /* USER CODE BEGIN WHILE */
+  95:Core/Src/main.c ****   while (1)
+  96:Core/Src/main.c ****   {
+  97:Core/Src/main.c ****     /* USER CODE END WHILE */
   98:Core/Src/main.c **** 
   99:Core/Src/main.c ****     /* USER CODE BEGIN 3 */
  100:Core/Src/main.c ****   }
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 1
  142:Core/Src/main.c **** }
  143:Core/Src/main.c **** 
  144:Core/Src/main.c **** /* USER CODE BEGIN 4 */
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 4
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s 			page 4
 
 
  145:Core/Src/main.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 1
   33:Drivers/CMSIS/Include/cmsis_gcc.h **** 
   34:Drivers/CMSIS/Include/cmsis_gcc.h **** /* Fallback for __has_builtin */
   35:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef __has_builtin
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 5
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s 			page 5
 
 
   36:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __has_builtin(x) (0)
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 1
   90:Drivers/CMSIS/Include/cmsis_gcc.h ****   __PACKED_STRUCT T_UINT16_READ { uint16_t v; };
   91:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic pop
   92:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT16_READ(addr)          (((const struct T_UINT16_READ *)(const void *)(add
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 6
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s 			page 6
 
 
   93:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 1
  147:Drivers/CMSIS/Include/cmsis_gcc.h ****   extern const __copy_table_t __copy_table_end__;
  148:Drivers/CMSIS/Include/cmsis_gcc.h ****   extern const __zero_table_t __zero_table_start__;
  149:Drivers/CMSIS/Include/cmsis_gcc.h ****   extern const __zero_table_t __zero_table_end__;
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 7
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s 			page 7
 
 
  150:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 1
  204:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Disables IRQ interrupts by setting the I-bit in the CPSR.
  205:Drivers/CMSIS/Include/cmsis_gcc.h ****            Can only be executed in Privileged modes.
  206:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 8
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s 			page 8
 
 
  207:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __disable_irq(void)
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 1
   85              	.LVL0:
  111:Core/Src/main.c **** 
   86              		.loc 1 111 3 is_stmt 1 view .LVU10
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 9
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s 			page 9
 
 
  111:Core/Src/main.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 1
  133:Core/Src/main.c ****   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
  125              		.loc 1 133 34 is_stmt 0 view .LVU27
  126 003e 0123     		movs	r3, #1
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 10
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s 			page 10
 
 
  127 0040 0293     		str	r3, [sp, #8]
@@ -598,11 +598,11 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 1
  170              		.thumb_func
  172              	main:
  173              	.LFB132:
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 11
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s 			page 11
 
 
-  64:Core/Src/main.c **** 
- 174              		.loc 1 64 1 view -0
+  66:Core/Src/main.c **** 
+ 174              		.loc 1 66 1 view -0
  175              		.cfi_startproc
  176              		@ Volatile: function does not return.
  177              		@ args = 0, pretend = 0, frame = 0
@@ -612,55 +612,44 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 1
  181              		.cfi_def_cfa_offset 8
  182              		.cfi_offset 3, -8
  183              		.cfi_offset 14, -4
-  73:Core/Src/main.c **** 
- 184              		.loc 1 73 3 view .LVU41
+  75:Core/Src/main.c **** 
+ 184              		.loc 1 75 3 view .LVU41
  185 0002 FFF7FEFF 		bl	HAL_Init
  186              	.LVL6:
-  80:Core/Src/main.c **** 
- 187              		.loc 1 80 3 view .LVU42
+  82:Core/Src/main.c **** 
+ 187              		.loc 1 82 3 view .LVU42
  188 0006 FFF7FEFF 		bl	SystemClock_Config
  189              	.LVL7:
  190              	.L10:
-  93:Core/Src/main.c ****   {
- 191              		.loc 1 93 3 discriminator 1 view .LVU43
-  96:Core/Src/main.c ****     HAL_Delay(500);
- 192              		.loc 1 96 5 discriminator 1 view .LVU44
- 193 000a 2021     		movs	r1, #32
- 194 000c 4FF09040 		mov	r0, #1207959552
- 195 0010 FFF7FEFF 		bl	HAL_GPIO_TogglePin
- 196              	.LVL8:
-  97:Core/Src/main.c **** 
- 197              		.loc 1 97 5 discriminator 1 view .LVU45
- 198 0014 4FF4FA70 		mov	r0, #500
- 199 0018 FFF7FEFF 		bl	HAL_Delay
- 200              	.LVL9:
-  93:Core/Src/main.c ****   {
- 201              		.loc 1 93 9 discriminator 1 view .LVU46
- 202 001c F5E7     		b	.L10
- 203              		.cfi_endproc
- 204              	.LFE132:
- 206              		.text
- 207              	.Letext0:
- 208              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10
- 209              		.file 4 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10
- 210              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g491xx.h"
- 211              		.file 6 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h"
- 212              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h"
- 213              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
- 214              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h"
- 215              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
- 216              		.file 11 "<built-in>"
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s 			page 12
+  95:Core/Src/main.c ****   {
+ 191              		.loc 1 95 3 discriminator 1 view .LVU43
+ 100:Core/Src/main.c ****   /* USER CODE END 3 */
+ 192              		.loc 1 100 3 discriminator 1 view .LVU44
+  95:Core/Src/main.c ****   {
+ 193              		.loc 1 95 9 discriminator 1 view .LVU45
+ 194 000a FEE7     		b	.L10
+ 195              		.cfi_endproc
+ 196              	.LFE132:
+ 198              		.text
+ 199              	.Letext0:
+ 200              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10
+ 201              		.file 4 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10
+ 202              		.file 5 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h"
+ 203              		.file 6 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h"
+ 204              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
+ 205              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
+ 206              		.file 9 "<built-in>"
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s 			page 12
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s:20     .text.Error_Handler:00000000 $t
-C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s:26     .text.Error_Handler:00000000 Error_Handler
-C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s:59     .text.SystemClock_Config:00000000 $t
-C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s:65     .text.SystemClock_Config:00000000 SystemClock_Config
-C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s:166    .text.main:00000000 $t
-C:\Users\alexc\AppData\Local\Temp\ccVKAaSQ.s:172    .text.main:00000000 main
+C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s:20     .text.Error_Handler:00000000 $t
+C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s:26     .text.Error_Handler:00000000 Error_Handler
+C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s:59     .text.SystemClock_Config:00000000 $t
+C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s:65     .text.SystemClock_Config:00000000 SystemClock_Config
+C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s:166    .text.main:00000000 $t
+C:\Users\alexc\AppData\Local\Temp\ccz7cVD6.s:172    .text.main:00000000 main
 
 UNDEFINED SYMBOLS
 memset
@@ -668,5 +657,3 @@ HAL_PWREx_ControlVoltageScaling
 HAL_RCC_OscConfig
 HAL_RCC_ClockConfig
 HAL_Init
-HAL_GPIO_TogglePin
-HAL_Delay

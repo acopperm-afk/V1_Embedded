@@ -18,6 +18,8 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include <stm32g4xx_hal_flash.h>
+#include <stm32g4xx_hal_rcc.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -90,11 +92,46 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  // Set up the microphone
+  int Analog_Eingang = A0;   // PA0 - analog mic signal
+  int Digital_Eingang = 2;   // D2 (PA10) - digital threshold output
+  void setup() {
+    pinMode(Analog_Eingang, INPUT);
+    pinMode(Digital_Eingang, INPUT);
+    Serial.begin(9600);
+}
+void loop()
+{
+  float Analog;
+  int Digital;
+  // 12-bit ADC (0-4095), 3.3V reference
+    Analog = analogRead(Analog_Eingang) * (3.3 / 4095.0);
+    Digital = digitalRead(Digital_Eingang);
+
+    Serial.print("Analog voltage value: ");
+    Serial.print(Analog, 4);
+    Serial.print("V, ");
+    Serial.print("Sound threshold: ");
+    if (Digital == 1) {
+        Serial.println("DETECTED");
+    } else {
+        Serial.println("not reached");
+    }
+    Serial.println("--------------------------------");
+    delay(200);
+
+}
+
+
+
+
+
+
+
   while (1)
   {
     /* USER CODE END WHILE */
-    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
-    HAL_Delay(500);
+
 
     /* USER CODE BEGIN 3 */
   }

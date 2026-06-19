@@ -54,7 +54,10 @@ Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c \
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c \
 Core/Src/system_stm32g4xx.c \
 Core/Src/sysmem.c \
-Core/Src/syscalls.c  
+Core/Src/syscalls.c  \
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c \
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c
+
 
 # ASM sources
 ASM_SOURCES =  \
@@ -188,7 +191,7 @@ $(BUILD_DIR):
 # clean up
 #######################################
 clean:
-	-rm -fR $(BUILD_DIR)
+	del -fR $(BUILD_DIR)
   
 #######################################
 # dependencies
