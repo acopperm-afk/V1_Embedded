@@ -1,5 +1,5 @@
-build/stm32g4xx_hal_tim_ex.o: \
- Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c \
+build/stm32g4xx_hal_adc_ex.o: \
+ Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c \
  Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
  Core/Inc/stm32g4xx_hal_conf.h \
  Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \

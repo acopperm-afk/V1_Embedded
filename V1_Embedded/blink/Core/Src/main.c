@@ -20,6 +20,11 @@
 #include "main.h"
 #include <stm32g4xx_hal_flash.h>
 #include <stm32g4xx_hal_rcc.h>
+  /* USER CODE BEGIN SysInit */
+#include <stdio.h>
+#include <string.h>
+#include <stm32g4xx_hal_uart.h>
+#include <stm32g4xx_hal_adc.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -81,63 +86,123 @@ int main(void)
   /* Configure the system clock */
   SystemClock_Config();
 
-  /* USER CODE BEGIN SysInit */
 
-  /* USER CODE END SysInit */
+
+  /* USER CODE BEGIN PV */
+  static ADC_HandleTypeDef hadc1;           // static = zero-initialized, lives for program lifetime
+  static UART_HandleTypeDef huart2;         // LPUART1 → Virtual COM port
 
   /* Initialize all configured peripherals */
+
+  // --- GPIO: PA5 as push-pull output (LED) ---
+  __HAL_RCC_GPIOA_CLK_ENABLE();
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+  GPIO_InitStruct.Pin   = GPIO_PIN_5;
+  GPIO_InitStruct.Mode  = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull  = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  // --- GPIO: PA10 as digital input (D2 on Arduino header, sound sensor DO) ---
+  // Most LM393-based sound sensors pull DO LOW on detection (active-low).
+  // Use pull-up so the pin reads HIGH at rest and LOW when sound is detected.
+  GPIO_InitStruct.Pin   = GPIO_PIN_10;
+  GPIO_InitStruct.Mode  = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull  = GPIO_PULLUP;
+  GPIO_InitStruct.Speed = 0;  // not used for inputs
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  // --- ADC1 CH1: PA0 as analog input (A0 on Arduino header) ---
+  __HAL_RCC_ADC12_CLK_ENABLE();
+  GPIO_InitStruct.Pin  = GPIO_PIN_0;
+  GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+  hadc1.Instance = ADC1;
+  hadc1.Init.ClockPrescaler        = ADC_CLOCK_SYNC_PCLK_DIV2;
+  hadc1.Init.Resolution            = ADC_RESOLUTION_12B;
+  hadc1.Init.DataAlign             = ADC_DATAALIGN_RIGHT;
+  hadc1.Init.ScanConvMode          = ADC_SCAN_DISABLE;
+  hadc1.Init.EOCSelection          = ADC_EOC_SINGLE_CONV;
+  hadc1.Init.ContinuousConvMode    = DISABLE;
+  hadc1.Init.NbrOfConversion       = 1;
+  hadc1.Init.DiscontinuousConvMode = DISABLE;
+  hadc1.Init.ExternalTrigConv      = ADC_SOFTWARE_START;
+  hadc1.Init.ExternalTrigConvEdge  = ADC_EXTERNALTRIGCONVEDGE_NONE;
+  hadc1.Init.OversamplingMode      = DISABLE;
+  HAL_ADC_Init(&hadc1);
+
+  ADC_ChannelConfTypeDef sConfig = {0};
+  sConfig.Channel      = ADC_CHANNEL_1;   // PA0 = ADC12_IN1
+  sConfig.Rank         = ADC_REGULAR_RANK_1;
+  sConfig.SamplingTime = ADC_SAMPLETIME_47CYCLES_5;
+  HAL_ADC_ConfigChannel(&hadc1, &sConfig);
+
+  HAL_ADCEx_Calibration_Start(&hadc1, ADC_SINGLE_ENDED);
+
+  // --- LPUART1: PA2(TX)/PA3(RX) → Virtual COM port at 9600 ---
+  // LPUART1 requires an explicit peripheral clock source on STM32G4.
+  // Route it to HSI (16 MHz) so baud rate calculation is correct.
+  RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
+  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_LPUART1;
+  PeriphClkInit.Lpuart1ClockSelection = RCC_LPUART1CLKSOURCE_HSI;
+  HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit);
+  __HAL_RCC_LPUART1_CLK_ENABLE();
+  GPIO_InitStruct.Pin       = GPIO_PIN_2 | GPIO_PIN_3;
+  GPIO_InitStruct.Mode      = GPIO_MODE_AF_PP;
+  GPIO_InitStruct.Pull      = GPIO_NOPULL;
+  GPIO_InitStruct.Speed     = GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.Alternate = GPIO_AF12_LPUART1;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  huart2.Instance          = LPUART1;
+  huart2.Init.BaudRate     = 9600;
+  huart2.Init.WordLength   = UART_WORDLENGTH_8B;
+  huart2.Init.StopBits     = UART_STOPBITS_1;
+  huart2.Init.Parity       = UART_PARITY_NONE;
+  huart2.Init.Mode         = UART_MODE_TX_RX;
+  huart2.Init.HwFlowCtl    = UART_HWCONTROL_NONE;
+  HAL_UART_Init(&huart2);
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  // Set up the microphone
-  int Analog_Eingang = A0;   // PA0 - analog mic signal
-  int Digital_Eingang = 2;   // D2 (PA10) - digital threshold output
-  void setup() {
-    pinMode(Analog_Eingang, INPUT);
-    pinMode(Digital_Eingang, INPUT);
-    Serial.begin(9600);
-}
-void loop()
-{
-  float Analog;
-  int Digital;
-  // 12-bit ADC (0-4095), 3.3V reference
-    Analog = analogRead(Analog_Eingang) * (3.3 / 4095.0);
-    Digital = digitalRead(Digital_Eingang);
-
-    Serial.print("Analog voltage value: ");
-    Serial.print(Analog, 4);
-    Serial.print("V, ");
-    Serial.print("Sound threshold: ");
-    if (Digital == 1) {
-        Serial.println("DETECTED");
-    } else {
-        Serial.println("not reached");
-    }
-    Serial.println("--------------------------------");
-    delay(200);
-
-}
-
-
-
-
-
-
 
   while (1)
   {
     /* USER CODE END WHILE */
+     // Read ADC
+    HAL_ADC_Start(&hadc1);
+    HAL_ADC_PollForConversion(&hadc1, 10);
+    uint32_t raw = HAL_ADC_GetValue(&hadc1);
+    // Compute voltage in integer mV to avoid float printf issues: 3300mV / 4095
+    uint32_t voltage_mv = (raw * 3300UL) / 4095UL;
 
+    // Read digital pin
+    GPIO_PinState digital = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_10);
 
+    if (digital == GPIO_PIN_RESET)   // active-low: sensor pulls DO low on detection
+    {
+      HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+      HAL_Delay(500);   // debounce: ignore further triggers for 500 ms
+    }
+
+    // Format and send over UART (voltage in mV, no float needed)
+    char buf[80];
+    int len = snprintf(buf, sizeof(buf),
+        "Analog: %lu.%03luV, Sound: %s\r\n",
+        voltage_mv / 1000UL,
+        voltage_mv % 1000UL,
+        (digital == GPIO_PIN_RESET) ? "DETECTED" : "quiet");
+    HAL_UART_Transmit(&huart2, (uint8_t*)buf, len, 100);
+
+    HAL_Delay(200);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }
-
 /**
   * @brief System Clock Configuration
   * @retval None

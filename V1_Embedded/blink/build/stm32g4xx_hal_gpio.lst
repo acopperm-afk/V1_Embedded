@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -27,7 +27,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
   24              		.thumb_func
   26              	HAL_GPIO_Init:
   27              	.LVL0:
-  28              	.LFB132:
+  28              	.LFB329:
   29              		.file 1 "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c"
    1:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** /**
    2:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   ******************************************************************************
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
   27:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****     (+) Each port bit of the general-purpose I/O (GPIO) ports can be individually
   28:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****         configured by software in several modes:
   29:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****         (++) Input mode
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 2
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 2
 
 
   30:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****         (++) Analog mode
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
   84:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****     (#) To set/reset the level of a pin configured in output mode use
   85:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****         HAL_GPIO_WritePin()/HAL_GPIO_TogglePin().
   86:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** 
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 3
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 3
 
 
   87:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****    (#) To lock pin configuration until next reset use HAL_GPIO_LockPin().
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  141:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   */
  142:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** 
  143:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** /** @defgroup GPIO_Exported_Functions_Group1 Initialization/de-initialization functions
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 4
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 4
 
 
  144:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   *  @brief    Initialization and Configuration functions
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
   53              		.loc 1 174 3 view .LVU8
  164:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   uint32_t iocurrent;
   54              		.loc 1 164 12 is_stmt 0 view .LVU9
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 5
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 5
 
 
   55 0004 0023     		movs	r3, #0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
   88              	.LVL6:
  196:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****         temp &= ~(GPIO_OTYPER_OT0 << position) ;
   89              		.loc 1 196 9 is_stmt 1 view .LVU26
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 6
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 6
 
 
   90              		.loc 1 196 14 is_stmt 0 view .LVU27
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  222:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****         temp = GPIOx->AFR[position >> 3U];
  118              		.loc 1 222 9 view .LVU39
  119              		.loc 1 222 36 is_stmt 0 view .LVU40
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 7
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 7
 
 
  120 003a DD08     		lsrs	r5, r3, #3
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  153              	.L14:
  154 0068 0024     		movs	r4, #0
  155              	.L8:
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 8
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 8
 
 
  156              		.loc 1 243 40 discriminator 24 view .LVU54
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  197              		.loc 1 256 9 is_stmt 1 view .LVU72
  198              		.loc 1 256 14 is_stmt 0 view .LVU73
  199 0096 04EA0506 		and	r6, r4, r5
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 9
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 9
 
 
  200              	.LVL20:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  238              		.loc 1 272 14 is_stmt 0 view .LVU91
  239 00c0 2D68     		ldr	r5, [r5]
  240              	.LVL25:
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 10
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 10
 
 
  273:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****         temp &= ~(iocurrent);
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  179:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****     {
  280              		.loc 1 179 5 is_stmt 1 view .LVU109
  179:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****     {
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 11
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 11
 
 
  281              		.loc 1 179 8 is_stmt 0 view .LVU110
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  318 0110 24EA0C0C 		bic	ip, r4, ip
  319              	.LVL34:
  210:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****         GPIOx->PUPDR = temp;
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 12
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 12
 
 
  320              		.loc 1 210 9 is_stmt 1 view .LVU128
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  357 013c 4C68     		ldr	r4, [r1, #4]
  231:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****       GPIOx->MODER = temp;
  358              		.loc 1 231 33 view .LVU146
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 13
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 13
 
 
  359 013e 04F00304 		and	r4, r4, #3
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  397 0170 174C     		ldr	r4, .L26
  398 0172 54F82550 		ldr	r5, [r4, r5, lsl #2]
  399              	.LVL42:
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 14
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 14
 
 
  242:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****         temp |= (GPIO_GET_INDEX(GPIOx) << (4U * (position & 0x03U)));
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  441              	.L16:
  442 01c0 0224     		movs	r4, #2
  443 01c2 52E7     		b	.L8
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 15
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 15
 
 
  444              	.L17:
@@ -865,7 +865,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  463 01d8 00100240 		.word	1073876992
  464 01dc 00040048 		.word	1207960576
  465              		.cfi_endproc
- 466              	.LFE132:
+ 466              	.LFE329:
  468              		.section	.text.HAL_GPIO_DeInit,"ax",%progbits
  469              		.align	1
  470              		.global	HAL_GPIO_DeInit
@@ -874,7 +874,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  473              		.thumb_func
  475              	HAL_GPIO_DeInit:
  476              	.LVL45:
- 477              	.LFB133:
+ 477              	.LFB330:
  285:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** 
  286:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** /**
  287:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   * @brief  De-initialize the GPIOx peripheral registers to their default reset values.
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  298:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** 
  299:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   /* Check the parameters */
  300:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   assert_param(IS_GPIO_ALL_INSTANCE(GPIOx));
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 16
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 16
 
 
  485              		.loc 1 300 3 view .LVU181
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  319:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****         EXTI->IMR1 &= ~(iocurrent);
  320:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****         EXTI->EMR1 &= ~(iocurrent);
  321:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** 
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 17
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 17
 
 
  322:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****         /* Clear Rising Falling edge configuration */
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  553 0056 24EA0202 		bic	r2, r4, r2
  554              	.LVL49:
  555              		.loc 1 341 22 view .LVU205
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 18
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 18
 
 
  556 005a 4260     		str	r2, [r0, #4]
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  593 0084 03F0030C 		and	ip, r3, #3
  315:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****       if (tmp == (GPIO_GET_INDEX(GPIOx) << (4U * (position & 0x03U))))
  594              		.loc 1 315 29 view .LVU221
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 19
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 19
 
 
  595 0088 4FEA8C0C 		lsl	ip, ip, #2
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  639 00d0 0425     		movs	r5, #4
  640 00d2 9FE7     		b	.L31
  641              	.L44:
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 20
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 20
 
 
  319:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****         EXTI->EMR1 &= ~(iocurrent);
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  681              	.LVL60:
  682              	.L43:
  683              	.LCFI4:
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 21
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 21
 
 
  684              		.cfi_def_cfa_offset 0
@@ -1216,7 +1216,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  696 0114 00040048 		.word	1207960576
  697 0118 00040140 		.word	1073808384
  698              		.cfi_endproc
- 699              	.LFE133:
+ 699              	.LFE330:
  701              		.section	.text.HAL_GPIO_ReadPin,"ax",%progbits
  702              		.align	1
  703              		.global	HAL_GPIO_ReadPin
@@ -1225,7 +1225,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  706              		.thumb_func
  708              	HAL_GPIO_ReadPin:
  709              	.LVL61:
- 710              	.LFB134:
+ 710              	.LFB331:
  350:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** 
  351:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** /**
  352:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   * @}
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  714              		@ frame_needed = 0, uses_anonymous_args = 0
  715              		@ link register save eliminated.
  376:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   GPIO_PinState bitstatus;
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 22
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 22
 
 
  716              		.loc 1 376 3 view .LVU248
@@ -1297,7 +1297,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  735              		.loc 1 390 1 is_stmt 0 view .LVU257
  736 000c 7047     		bx	lr
  737              		.cfi_endproc
- 738              	.LFE134:
+ 738              	.LFE331:
  740              		.section	.text.HAL_GPIO_WritePin,"ax",%progbits
  741              		.align	1
  742              		.global	HAL_GPIO_WritePin
@@ -1306,7 +1306,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  745              		.thumb_func
  747              	HAL_GPIO_WritePin:
  748              	.LVL65:
- 749              	.LFB135:
+ 749              	.LFB332:
  391:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** 
  392:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** /**
  393:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   * @brief  Set or clear the selected data port bit.
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  399:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   * @param  GPIOx where x can be (A..G) to select the GPIO peripheral for STM32G4xx family
  400:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   * @param  GPIO_Pin specifies the port bit to be written.
  401:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   *         This parameter can be any combination of GPIO_PIN_x where x can be (0..15).
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 23
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 23
 
 
  402:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   * @param  PinState specifies the value to be written to the selected bit.
@@ -1363,7 +1363,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  768              		.loc 1 422 1 view .LVU267
  769 0008 7047     		bx	lr
  770              		.cfi_endproc
- 771              	.LFE135:
+ 771              	.LFE332:
  773              		.section	.text.HAL_GPIO_TogglePin,"ax",%progbits
  774              		.align	1
  775              		.global	HAL_GPIO_TogglePin
@@ -1372,13 +1372,13 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  778              		.thumb_func
  780              	HAL_GPIO_TogglePin:
  781              	.LVL66:
- 782              	.LFB136:
+ 782              	.LFB333:
  423:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** 
  424:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** /**
  425:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   * @brief  Toggle the specified GPIO pin.
  426:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   * @param  GPIOx where x can be (A..G) to select the GPIO peripheral for STM32G4xx family
  427:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   * @param  GPIO_Pin specifies the pin to be toggled.
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 24
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 24
 
 
  428:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   *         This parameter can be any combination of GPIO_PIN_x where x can be (0..15).
@@ -1421,7 +1421,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  804              		.loc 1 443 1 view .LVU278
  805 0010 7047     		bx	lr
  806              		.cfi_endproc
- 807              	.LFE136:
+ 807              	.LFE333:
  809              		.section	.text.HAL_GPIO_LockPin,"ax",%progbits
  810              		.align	1
  811              		.global	HAL_GPIO_LockPin
@@ -1430,7 +1430,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  814              		.thumb_func
  816              	HAL_GPIO_LockPin:
  817              	.LVL69:
- 818              	.LFB137:
+ 818              	.LFB334:
  444:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** 
  445:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** /**
  446:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   * @brief  Lock GPIO Pins configuration registers.
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  448:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   *         GPIOx_PUPDR, GPIOx_AFRL and GPIOx_AFRH.
  449:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   * @note   The configuration of the locked GPIO pins can no longer be modified
  450:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   *         until the next reset.
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 25
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 25
 
 
  451:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   * @param  GPIOx where x can be (A..G) to select the GPIO peripheral for STM32G4xx family
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  850              		.loc 1 473 3 is_stmt 1 view .LVU293
  851              		.loc 1 473 14 is_stmt 0 view .LVU294
  852 0018 C369     		ldr	r3, [r0, #28]
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 26
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 26
 
 
  853              		.loc 1 473 7 view .LVU295
@@ -1543,7 +1543,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  879              		.loc 1 482 12 view .LVU302
  880 002c FBE7     		b	.L57
  881              		.cfi_endproc
- 882              	.LFE137:
+ 882              	.LFE334:
  884              		.section	.text.HAL_GPIO_EXTI_Callback,"ax",%progbits
  885              		.align	1
  886              		.weak	HAL_GPIO_EXTI_Callback
@@ -1552,13 +1552,13 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  889              		.thumb_func
  891              	HAL_GPIO_EXTI_Callback:
  892              	.LVL73:
- 893              	.LFB139:
+ 893              	.LFB336:
  485:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** 
  486:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c **** /**
  487:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   * @brief  Handle EXTI interrupt request.
  488:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   * @param  GPIO_Pin Specifies the port pin connected to corresponding EXTI line.
  489:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   * @retval None
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 27
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 27
 
 
  490:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   */
@@ -1595,7 +1595,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  900              		.loc 1 514 1 is_stmt 0 view .LVU305
  901 0000 7047     		bx	lr
  902              		.cfi_endproc
- 903              	.LFE139:
+ 903              	.LFE336:
  905              		.section	.text.HAL_GPIO_EXTI_IRQHandler,"ax",%progbits
  906              		.align	1
  907              		.global	HAL_GPIO_EXTI_IRQHandler
@@ -1604,7 +1604,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  910              		.thumb_func
  912              	HAL_GPIO_EXTI_IRQHandler:
  913              	.LVL74:
- 914              	.LFB138:
+ 914              	.LFB335:
  492:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   /* EXTI line interrupt detected */
  915              		.loc 1 492 1 is_stmt 1 view -0
  916              		.cfi_startproc
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  923              		.cfi_offset 3, -8
  924              		.cfi_offset 14, -4
  494:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c ****   {
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 28
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 28
 
 
  925              		.loc 1 494 3 is_stmt 1 view .LVU308
@@ -1653,7 +1653,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  948              	.L65:
  949 0018 00040140 		.word	1073808384
  950              		.cfi_endproc
- 951              	.LFE138:
+ 951              	.LFE335:
  953              		.text
  954              	.Letext0:
  955              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10
@@ -1661,29 +1661,29 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 1
  957              		.file 4 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g491xx.h"
  958              		.file 5 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
  959              		.file 6 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h"
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s 			page 29
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s 			page 29
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32g4xx_hal_gpio.c
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:20     .text.HAL_GPIO_Init:00000000 $t
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:26     .text.HAL_GPIO_Init:00000000 HAL_GPIO_Init
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:461    .text.HAL_GPIO_Init:000001d0 $d
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:469    .text.HAL_GPIO_DeInit:00000000 $t
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:475    .text.HAL_GPIO_DeInit:00000000 HAL_GPIO_DeInit
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:695    .text.HAL_GPIO_DeInit:00000110 $d
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:702    .text.HAL_GPIO_ReadPin:00000000 $t
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:708    .text.HAL_GPIO_ReadPin:00000000 HAL_GPIO_ReadPin
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:741    .text.HAL_GPIO_WritePin:00000000 $t
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:747    .text.HAL_GPIO_WritePin:00000000 HAL_GPIO_WritePin
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:774    .text.HAL_GPIO_TogglePin:00000000 $t
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:780    .text.HAL_GPIO_TogglePin:00000000 HAL_GPIO_TogglePin
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:810    .text.HAL_GPIO_LockPin:00000000 $t
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:816    .text.HAL_GPIO_LockPin:00000000 HAL_GPIO_LockPin
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:885    .text.HAL_GPIO_EXTI_Callback:00000000 $t
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:891    .text.HAL_GPIO_EXTI_Callback:00000000 HAL_GPIO_EXTI_Callback
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:906    .text.HAL_GPIO_EXTI_IRQHandler:00000000 $t
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:912    .text.HAL_GPIO_EXTI_IRQHandler:00000000 HAL_GPIO_EXTI_IRQHandler
-C:\Users\alexc\AppData\Local\Temp\ccJJEv4P.s:949    .text.HAL_GPIO_EXTI_IRQHandler:00000018 $d
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:20     .text.HAL_GPIO_Init:00000000 $t
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:26     .text.HAL_GPIO_Init:00000000 HAL_GPIO_Init
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:461    .text.HAL_GPIO_Init:000001d0 $d
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:469    .text.HAL_GPIO_DeInit:00000000 $t
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:475    .text.HAL_GPIO_DeInit:00000000 HAL_GPIO_DeInit
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:695    .text.HAL_GPIO_DeInit:00000110 $d
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:702    .text.HAL_GPIO_ReadPin:00000000 $t
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:708    .text.HAL_GPIO_ReadPin:00000000 HAL_GPIO_ReadPin
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:741    .text.HAL_GPIO_WritePin:00000000 $t
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:747    .text.HAL_GPIO_WritePin:00000000 HAL_GPIO_WritePin
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:774    .text.HAL_GPIO_TogglePin:00000000 $t
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:780    .text.HAL_GPIO_TogglePin:00000000 HAL_GPIO_TogglePin
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:810    .text.HAL_GPIO_LockPin:00000000 $t
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:816    .text.HAL_GPIO_LockPin:00000000 HAL_GPIO_LockPin
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:885    .text.HAL_GPIO_EXTI_Callback:00000000 $t
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:891    .text.HAL_GPIO_EXTI_Callback:00000000 HAL_GPIO_EXTI_Callback
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:906    .text.HAL_GPIO_EXTI_IRQHandler:00000000 $t
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:912    .text.HAL_GPIO_EXTI_IRQHandler:00000000 HAL_GPIO_EXTI_IRQHandler
+C:\Users\alexc\AppData\Local\Temp\cc2jI9DJ.s:949    .text.HAL_GPIO_EXTI_IRQHandler:00000018 $d
 
 NO UNDEFINED SYMBOLS

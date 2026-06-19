@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 1
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -26,7 +26,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 1
   23              		.thumb
   24              		.thumb_func
   26              	SystemInit:
-  27              	.LFB132:
+  27              	.LFB329:
   28              		.file 1 "Core/Src/system_stm32g4xx.c"
    1:Core/Src/system_stm32g4xx.c **** /**
    2:Core/Src/system_stm32g4xx.c ****   ******************************************************************************
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 1
   28:Core/Src/system_stm32g4xx.c ****   *        System Clock source                    | HSI
   29:Core/Src/system_stm32g4xx.c ****   *-----------------------------------------------------------------------------
   30:Core/Src/system_stm32g4xx.c ****   *        SYSCLK(Hz)                             | 16000000
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 2
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s 			page 2
 
 
   31:Core/Src/system_stm32g4xx.c ****   *-----------------------------------------------------------------------------
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 1
   85:Core/Src/system_stm32g4xx.c ****   #define HSI_VALUE    16000000U /*!< Value of the Internal oscillator in Hz*/
   86:Core/Src/system_stm32g4xx.c **** #endif /* HSI_VALUE */
   87:Core/Src/system_stm32g4xx.c **** 
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 3
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s 			page 3
 
 
   88:Core/Src/system_stm32g4xx.c **** /**
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 1
  142:Core/Src/system_stm32g4xx.c **** 
  143:Core/Src/system_stm32g4xx.c **** /** @addtogroup STM32G4xx_System_Private_Variables
  144:Core/Src/system_stm32g4xx.c ****   * @{
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 4
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s 			page 4
 
 
  145:Core/Src/system_stm32g4xx.c ****   */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 1
  188:Core/Src/system_stm32g4xx.c ****   /* Configure the Vector Table location add offset address ------------------*/
  189:Core/Src/system_stm32g4xx.c **** #if defined(USER_VECT_TAB_ADDRESS)
  190:Core/Src/system_stm32g4xx.c ****   SCB->VTOR = VECT_TAB_BASE_ADDRESS | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal SRAM 
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 5
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s 			page 5
 
 
  191:Core/Src/system_stm32g4xx.c **** #endif /* USER_VECT_TAB_ADDRESS */
@@ -250,7 +250,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 1
   44              	.L2:
   45 0010 00ED00E0 		.word	-536810240
   46              		.cfi_endproc
-  47              	.LFE132:
+  47              	.LFE329:
   49              		.section	.text.SystemCoreClockUpdate,"ax",%progbits
   50              		.align	1
   51              		.global	SystemCoreClockUpdate
@@ -258,7 +258,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 1
   53              		.thumb
   54              		.thumb_func
   56              	SystemCoreClockUpdate:
-  57              	.LFB133:
+  57              	.LFB330:
  193:Core/Src/system_stm32g4xx.c **** 
  194:Core/Src/system_stm32g4xx.c **** /**
  195:Core/Src/system_stm32g4xx.c ****   * @brief  Update SystemCoreClock variable according to Clock Register Values.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 1
  229:Core/Src/system_stm32g4xx.c ****   */
  230:Core/Src/system_stm32g4xx.c **** void SystemCoreClockUpdate(void)
  231:Core/Src/system_stm32g4xx.c **** {
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 6
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s 			page 6
 
 
   58              		.loc 1 231 1 is_stmt 1 view -0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 1
  266:Core/Src/system_stm32g4xx.c ****   }
  267:Core/Src/system_stm32g4xx.c ****   /* Compute HCLK clock frequency --------------------------------------------*/
  268:Core/Src/system_stm32g4xx.c ****   /* Get HCLK prescaler */
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 7
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s 			page 7
 
 
  269:Core/Src/system_stm32g4xx.c ****   tmp = AHBPrescTable[((RCC->CFGR & RCC_CFGR_HPRE) >> 4)];
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 1
  119 003e 02F00302 		and	r2, r2, #3
  120              	.LVL2:
  250:Core/Src/system_stm32g4xx.c ****       if (pllsource == 0x02UL) /* HSI used as PLL clock source */
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 8
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s 			page 8
 
 
  121              		.loc 1 250 7 is_stmt 1 view .LVU26
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 1
  158              		.loc 1 260 12 view .LVU43
  159 0068 5200     		lsls	r2, r2, #1
  160              	.LVL8:
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 9
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s 			page 9
 
 
  261:Core/Src/system_stm32g4xx.c ****       break;
@@ -521,7 +521,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 1
  189 0088 0024F400 		.word	16000000
  190 008c 00127A00 		.word	8000000
  191              		.cfi_endproc
- 192              	.LFE133:
+ 192              	.LFE330:
  194              		.global	APBPrescTable
  195              		.global	AHBPrescTable
  196              		.global	SystemCoreClock
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 1
  210      00000000 
  210      01020304 
  210      06
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 10
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s 			page 10
 
 
  211 000d 070809   		.ascii	"\007\010\011"
@@ -554,22 +554,22 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 1
  222              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
  223              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h"
  224              		.file 6 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g491xx.h"
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s 			page 11
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s 			page 11
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 system_stm32g4xx.c
-C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s:20     .text.SystemInit:00000000 $t
-C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s:26     .text.SystemInit:00000000 SystemInit
-C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s:45     .text.SystemInit:00000010 $d
-C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s:50     .text.SystemCoreClockUpdate:00000000 $t
-C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s:56     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
-C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s:186    .text.SystemCoreClockUpdate:0000007c $d
-C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s:216    .rodata.APBPrescTable:00000000 APBPrescTable
-C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s:209    .rodata.AHBPrescTable:00000000 AHBPrescTable
-C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s:202    .data.SystemCoreClock:00000000 SystemCoreClock
-C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s:198    .data.SystemCoreClock:00000000 $d
-C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s:205    .rodata.AHBPrescTable:00000000 $d
-C:\Users\alexc\AppData\Local\Temp\ccBuu6qB.s:213    .rodata.APBPrescTable:00000000 $d
+C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s:20     .text.SystemInit:00000000 $t
+C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s:26     .text.SystemInit:00000000 SystemInit
+C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s:45     .text.SystemInit:00000010 $d
+C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s:50     .text.SystemCoreClockUpdate:00000000 $t
+C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s:56     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
+C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s:186    .text.SystemCoreClockUpdate:0000007c $d
+C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s:216    .rodata.APBPrescTable:00000000 APBPrescTable
+C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s:209    .rodata.AHBPrescTable:00000000 AHBPrescTable
+C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s:202    .data.SystemCoreClock:00000000 SystemCoreClock
+C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s:198    .data.SystemCoreClock:00000000 $d
+C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s:205    .rodata.AHBPrescTable:00000000 $d
+C:\Users\alexc\AppData\Local\Temp\ccDAprL0.s:213    .rodata.APBPrescTable:00000000 $d
 
 NO UNDEFINED SYMBOLS

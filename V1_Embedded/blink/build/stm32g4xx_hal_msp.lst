@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccddyUQg.s 			page 1
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccV0r95j.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -26,7 +26,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccddyUQg.s 			page 1
   23              		.thumb
   24              		.thumb_func
   26              	HAL_MspInit:
-  27              	.LFB132:
+  27              	.LFB329:
   28              		.file 1 "Core/Src/stm32g4xx_hal_msp.c"
    1:Core/Src/stm32g4xx_hal_msp.c **** /* USER CODE BEGIN Header */
    2:Core/Src/stm32g4xx_hal_msp.c **** /**
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccddyUQg.s 			page 1
   28:Core/Src/stm32g4xx_hal_msp.c **** 
   29:Core/Src/stm32g4xx_hal_msp.c **** /* USER CODE END TD */
   30:Core/Src/stm32g4xx_hal_msp.c **** 
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccddyUQg.s 			page 2
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccV0r95j.s 			page 2
 
 
   31:Core/Src/stm32g4xx_hal_msp.c **** /* Private define ------------------------------------------------------------*/
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccddyUQg.s 			page 1
   44 0004 0B4B     		ldr	r3, .L3
   45 0006 1A6E     		ldr	r2, [r3, #96]
   46 0008 42F00102 		orr	r2, r2, #1
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccddyUQg.s 			page 3
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccV0r95j.s 			page 3
 
 
   47 000c 1A66     		str	r2, [r3, #96]
@@ -171,24 +171,24 @@ ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccddyUQg.s 			page 1
   82              	.L3:
   83 0034 00100240 		.word	1073876992
   84              		.cfi_endproc
-  85              	.LFE132:
+  85              	.LFE329:
   87              		.text
   88              	.Letext0:
   89              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10
   90              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10.3-2021.10
   91              		.file 4 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g491xx.h"
   92              		.file 5 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h"
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccddyUQg.s 			page 4
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccV0r95j.s 			page 4
 
 
-ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccddyUQg.s 			page 5
+ARM GAS  C:\Users\alexc\AppData\Local\Temp\ccV0r95j.s 			page 5
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32g4xx_hal_msp.c
-C:\Users\alexc\AppData\Local\Temp\ccddyUQg.s:20     .text.HAL_MspInit:00000000 $t
-C:\Users\alexc\AppData\Local\Temp\ccddyUQg.s:26     .text.HAL_MspInit:00000000 HAL_MspInit
-C:\Users\alexc\AppData\Local\Temp\ccddyUQg.s:83     .text.HAL_MspInit:00000034 $d
+C:\Users\alexc\AppData\Local\Temp\ccV0r95j.s:20     .text.HAL_MspInit:00000000 $t
+C:\Users\alexc\AppData\Local\Temp\ccV0r95j.s:26     .text.HAL_MspInit:00000000 HAL_MspInit
+C:\Users\alexc\AppData\Local\Temp\ccV0r95j.s:83     .text.HAL_MspInit:00000034 $d
 
 UNDEFINED SYMBOLS
 HAL_PWREx_DisableUCPDDeadBattery
