@@ -1,19 +1,19 @@
 {
-    "configurations": [
-        {
-            "name": "ARM-Embedded",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "compilerPath": "arm-none-eabi-gcc",
-            "cStandard": "c11",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "linux-gcc-arm",
-            "defines": [
-                "STM32G491RExx"
-            ],
-            "compilerArgs": []
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "name": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "windows-gcc-x64",
+      "defines": [
+        "STM32G491RExx"
+      ],
+      "compilerArgs": []
+    }
+  ],
+  "version": 4
 }
